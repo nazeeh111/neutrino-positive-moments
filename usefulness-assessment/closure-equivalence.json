@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "operator_identity_cases": 200,
+  "cases_with_zero_weight": 61,
+  "example": {
+    "N1": "1",
+    "F1": "1/3",
+    "Q1": "1/4",
+    "N2": "1",
+    "F2": "-1/3",
+    "Q2": "1/4",
+    "wr": "0",
+    "gamma2": "25/36",
+    "k": "1",
+    "sector": "longitudinal"
+  },
+  "example_proof": {
+    "status": "possible",
+    "s1": [
+      {
+        "a": "-51708/124501",
+        "b": "0",
+        "d": "0"
+      },
+      {
+        "a": "-135684/124501",
+        "b": "0",
+        "d": "0"
+      }
+    ],
+    "s2": [
+      {
+        "a": "614976/2116517",
+        "b": "0",
+        "d": "0"
+      },
+      {
+        "a": "-135684/124501",
+        "b": "0",
+        "d": "0"
+      }
+    ],
+    "candidate": [
+      "pair",
+      0,
+      1,
+      1
+    ],
+    "proof_kind": "degree4_hausdorff"
+  },
+  "original_longitudinal_factor_exact_zero": true,
+  "scope": "Constant scalar longitudinal closures withQ_s=chi_sN_s anddeltaP_s=chi_sdeltaN_s; not the general FLASHtensor/advectionoperator; not a new utility pass",
+  "source_sha256": "fd49749cc1cf499b6fe07a4caf3674f0275a2b4dbeac39fd4660273f51697e9c"
+}

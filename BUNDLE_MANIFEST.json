@@ -3,8 +3,8 @@
   "scope": "Public research source,proofs,canonical data,plans,reviews,failure logs,current editable paper and preserved prior drafts. Private task continuation,environments,caches,preview PNGs,partial screen and git metadata excluded. Manifest excludes itself.",
   "files": {
     ".github/workflows/verify.yml": {
-      "sha256": "b1226e09545ebba0b193649c10305e299efdf2fdbee60584a417b81e9095411b",
-      "bytes": 1436
+      "sha256": "63de905102a011ae2c27b049f580d9b5935af510d87ad8cda4671fcc311e802d",
+      "bytes": 1567
     },
     ".gitignore": {
       "sha256": "5f0ebe68453360e278dfef71bf41e6abb9fa7eb0b8a94f95bb2165c6676500a2",
@@ -55,12 +55,16 @@
       "bytes": 5942
     },
     "README.md": {
-      "sha256": "57240e531011ba2ca7d500e6eed703db809208c088312874ebdc51f87b421826",
-      "bytes": 10158
+      "sha256": "8fab20e33585a26a2039f4efb1e15a64d75572e33c823817d60e0d4efe4e1c67",
+      "bytes": 10840
     },
     "SMOOTH_VALIDATION_PLAN.md": {
       "sha256": "4bf1affc30bdb94d9833ddfa8ce3cea441a441b0f23992084f11b224a42fb34d",
       "bytes": 2270
+    },
+    "advection-usecase-gate.md": {
+      "sha256": "ebb5803f8d25f40d882abc9d2e4939e2f514525cd964aa8453ffbe771daef835",
+      "bytes": 10055
     },
     "baseline-requirements.txt": {
       "sha256": "3922ce6a5448f5677dfcc017862b2e4944762fc38026a39b3d3505f997c12112",
@@ -617,6 +621,14 @@
     "uncertainty-reality-review.md": {
       "sha256": "123a9114838e6cb373591b41252be2d164b9c9089a8aff259430c3136ff260f2",
       "bytes": 6427
+    },
+    "usefulness-assessment/closure-equivalence.json": {
+      "sha256": "b0ab1f73c2229a12934fa0a4db4fd9226c46e0bb3f7b1244f1bc0d0dcd723f6c",
+      "bytes": 1114
+    },
+    "usefulness-assessment/closure_equivalence.py": {
+      "sha256": "fd49749cc1cf499b6fe07a4caf3674f0275a2b4dbeac39fd4660273f51697e9c",
+      "bytes": 3431
     },
     "usefulness-assessment/compare_bounds.py": {
       "sha256": "20cbcb6aefc361307895345c029c1d19e18245f434e36cb53bd63137b0d91940",
