@@ -1,0 +1,11 @@
+# Post-discovery smooth-profile check, before its numerical run
+
+This is an additional regularity check, not a changed StageB gate. StageB passed its unchanged504 classifications. The analytic sharp-envelope theorem was derived before this check, independently reviewed, and has explicit atomic measure attainers.
+
+AtN=k=1, the longitudinal optimizer is a=1/3, gamma²=1/3. Actual species measures are mu_e=3/4 delta_(u=1/3)+1/4 delta_(u=-1), with mu_bar its reflection. Azimuth is uniform. Both have density1, flux0 and isotropic pressure tensorI/3. A stable pair of uniform distributions has exactly those same first and second angular moments.
+
+Convolve each angular measure onS² with a normalized rotationally invariant von Mises-Fisher kernel at concentrationkappa. This gives strictly positive smooth densities, preserves mass, and multiplies each spherical-harmonic degree by a common scalar. The zero dipole/quadrupole coefficients therefore remain exactlyzero, so everykappa has the SAME low moments as uniform radiation. The equatorial ring convolution uses exp(kappa*u/3)*0F1(1;kappa²*(1-u²)*(1-1/9)/4), plus the weighted pole term. No nonanalytic square root is needed in the validated integration callback.
+
+Fixed concentrationskappa={2,4,8,16,32,64}. Test k=N=1 only. Use validated Arb/acb integration to crosscheck masses/fluxes/secondmoments and bound the real longitudinal dispersion on gamma samples{1/20,1/10,1/5,3/10,2/5,1/2,3/5,7/10}. A strict sign bracket at positive gamma certifies at least one purely growing mode by continuity. Bisect any positive-to-negative bracket to width<=1e-4 using exact rational endpoints and strict validated signs. Refusal or no bracket is reported, not converted to stability. Report all concentrations.
+
+Regularity gate: at least two concentrations<=32 must certify growth above gamma=1/4. If not, report that this attempted smooth finite-width demonstration fails. This does not alter the exact measure theorem. No claim of fastest mode, arbitraryReomega bound, astrophysical dataset validation, finite number-flux measurement or practical transport accuracy follows. All-positive measures may impose weaker constraints than specific microscopic occupancy bounds; those are absent here and must not be assumed.

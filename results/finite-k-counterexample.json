@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "Exact fixed-k counterexample to the endpoint-atom sharpness conjecture.\n\nThis does not challenge the proved unrestricted-k second-moment envelope.\nA rational IVT bracket certifies a purely imaginary original D_L root that\nis faster than the endpoint-compensated two-atom family at the SAME k and\nseparate moments. Standard library and independent C arithmetic only.\n",
+  "N": "1",
+  "Q_plus": "1/10",
+  "Q_minus": "1/10",
+  "k": "1/2",
+  "plus_atoms": [
+    [
+      "1/8",
+      "32/37"
+    ],
+    [
+      "-4/5",
+      "5/37"
+    ]
+  ],
+  "minus_atoms": [
+    [
+      "-1/8",
+      "32/37"
+    ],
+    [
+      "4/5",
+      "5/37"
+    ]
+  ],
+  "gamma_bracket": [
+    "37/125",
+    "297/1000"
+  ],
+  "direct_D_long_endpoints": [
+    "7919159/1416398341",
+    "-138906349/91455336349"
+  ],
+  "endpoint_family_gamma_squared": "7/80",
+  "lower_bracket_squared": "1369/15625",
+  "numerator_polynomial_lambda": [
+    "1",
+    "617/6400",
+    "-13/800"
+  ],
+  "meaning": "Endpoint-compensated two-atom family is not sharp at this fixed k, even on the imaginary axis.",
+  "limitation": "No all-real-frequency finite-k sharp theorem is proved; original unrestricted-k cap remains valid.",
+  "source_sha256": "d2dcdd6b7f96d3d1ee6c92b0b011a34c5c88030f3a2df152a2bc3078137a75fd"
+}

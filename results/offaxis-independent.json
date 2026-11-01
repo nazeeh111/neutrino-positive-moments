@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "tests": 4,
+  "determinant_identities": 1200,
+  "chord_identities": 1000,
+  "exact_offaxis_emptiness_checks": 192,
+  "scope": "Written global-cap proof corroboration; finite checks are not the proof",
+  "production_or_numeric_imports": false
+}

@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-11-01T10:40:40.058778+00:00",
+  "scope": "Only second-moment closed-form implementation tests, not the full repository test suite.",
+  "standard_library_only": true,
+  "source_sha256": {
+    "second_moment_bounds.py": "93d151195a7ec634ca090b82433c5950c1cd54a7801e421b50afbea6574ce4bf",
+    "test_second_moment_bounds.py": "0a11295e5b108ee875fd8e1ca48d1968801271c22657d467842074c264560aa7",
+    "independent-second-moment.md": "c2bbf1f67fd10fd624fcf14057257e541db23a28537e79d0f4cf290c1b2d5c97"
+  },
+  "runs": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-m",
+        "unittest",
+        "-v",
+        "test_second_moment_bounds.py"
+      ],
+      "exit_code": 0,
+      "test_methods": 5,
+      "exact_original_dispersion_substitutions": 1170
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_second_moment_bounds.py"
+      ],
+      "exit_code": 0,
+      "test_methods": 5,
+      "exact_original_dispersion_substitutions": 1170
+    }
+  ],
+  "unstable_parameter_triples_per_run": 585,
+  "mass_scales": [
+    "1/3",
+    "1",
+    "7/2"
+  ],
+  "normalized_moment_node_count": 15,
+  "exact_original_dispersion_substitutions_per_run": 1170,
+  "explicit_stable_control_cases": 6,
+  "proof_scope": "arbitrary finite positive axial measures; fixed separate second number moments; arbitrary real frequency and k>0; longitudinal and transverse factors"
+}

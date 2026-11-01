@@ -1,0 +1,21 @@
+{
+  "pdf_sha256": "5f91f147ff61a475783fea9976a82a0f4756495f50405c2b807d2e2f974ecf99",
+  "source_sha256": "db6bd91e562ab282d045ea1f2933a7e6a53fec4278f120e09fa5e5c45bb8e52a",
+  "pages_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "renderer": "Poppler",
+  "preview": "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/paper/preview/5f91f147ff-ekrutmsq",
+  "method": "Current pages1-9 byte-identical to inspected current-source pages; page10 directly viewed after bibliography size/spacing correction. Earlier page1-4 render equivalence and direct page5-9 inspection retained in task history.",
+  "result": "No observed clipping,overlap,missing glyphs,unreadable labels or equation-number collisions; complete formula and M2 disk pair kept together; short results table unsplit; all12references fit.",
+  "scope": "Visual QA only; universal proof and executable reviews are separate."
+}

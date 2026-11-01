@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.plot-cache/
+paper/preview/
+paper/draft-current.pdf
+.baseline-venv/
+TASK_STATE.md
+results/screen_partial.json
+.DS_Store

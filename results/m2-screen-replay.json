@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "standard_library_only": true,
+  "optimized_python": true,
+  "counts": {
+    "m2_proofs": 60,
+    "m1_positive_proofs": 8,
+    "exact_closure_modes": 8,
+    "designated_near_reference_points": 26,
+    "bracket_endpoint_checks": 26,
+    "extra_information_exclusions": 0
+  },
+  "false_certificate_rejected": true,
+  "utility_gate_passed": false,
+  "data_sha256": "2f8435526cdee3c6a751ff3a71ed8b31097762fa5dc6e3da95b800d5fda2b81c"
+}

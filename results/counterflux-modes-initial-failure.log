@@ -1,0 +1,13 @@
+/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/counterflux_modes.py:43: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  a,ae=quad(lambda u:u*signed_density(u,kind)/(gamma*gamma+k*k*u*u),0.,1.,
+Traceback (most recent call last):
+  File "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/counterflux_modes.py", line 136, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/counterflux_modes.py", line 120, in main
+    if cm>1e-12:raise RuntimeError('closure formula/matrix mismatch')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: closure formula/matrix mismatch

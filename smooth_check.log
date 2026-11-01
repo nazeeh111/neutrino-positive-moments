@@ -1,0 +1,7 @@
+2 no_certified_bracket None
+4 no_certified_bracket None
+8 certified_growing_mode ['2733/10240', '1367/5120']
+16 certified_growing_mode ['4233/10240', '2117/5120']
+32 certified_growing_mode ['2527/5120', '1011/2048']
+64 certified_growing_mode ['137/256', '5481/10240']
+smooth gate True

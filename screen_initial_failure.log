@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/screen.py", line 70, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/screen.py", line 46, in main
+    t=time.perf_counter();r=grid_lp(*m,w,k,sector,n);dt=time.perf_counter()-t
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/baselines.py", line 40, in grid_lp
+    columns.append([F(first),v if first else F(0),F(not first),v if not first else F(0),sign*s.re,sign*s.im])
+                    ^^^^^^^^
+  File "/Users/nazeeh/.local/share/codex-tools/cpython-3.12.15-pbs20261021/cpython-3.12.15-macos-aarch64-none/lib/python3.12/fractions.py", line 264, in __new__
+    raise TypeError("argument should be a string "
+TypeError: argument should be a string or a Rational instance

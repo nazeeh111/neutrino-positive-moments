@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "scope": "Finite exact geometry-to-root audit; not a universal theorem proof",
+  "reference_branch": "Squared disk-radius and center-distance containment comparisons",
+  "grid": {
+    "a": "i/100, i=1,...,99",
+    "y": "j/50, j=1,...,100",
+    "mass": "7/3",
+    "sectors": [
+      "longitudinal",
+      "transverse"
+    ]
+  },
+  "enclosure_bits": 30,
+  "expected_source_sha256": {
+    "finite_band_envelope.py": "e0fd9e4dce56dbb1c115690e8d7f14f4a419e6620cac2906d61886a448a9ddb5",
+    "finite-k-transition-audit.md": "f076d0fb272d073810fe3aaafede69d331c998abf787d6a94790047760a223e3"
+  },
+  "observed_source_sha256": {
+    "finite_band_envelope.py": "e0fd9e4dce56dbb1c115690e8d7f14f4a419e6620cac2906d61886a448a9ddb5",
+    "finite-k-transition-audit.md": "f076d0fb272d073810fe3aaafede69d331c998abf787d6a94790047760a223e3"
+  },
+  "checker_sha256": "1c5351734e973696a9b8d6822d14a086c7b2591b0114fea53b54ee36e794d75f",
+  "python_version": "3.14.7",
+  "completed_cases": 19800,
+  "branch_counts": {
+    "cubic": 1086,
+    "endpoint": 13814,
+    "plateau": 4900
+  }
+}

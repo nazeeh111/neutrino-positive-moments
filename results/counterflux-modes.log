@@ -1,0 +1,56 @@
+{
+  "output": "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/results/counterflux-modes.json",
+  "beta": 1.0745628999535313,
+  "moments": {
+    "linear": {
+      "plus": [
+        1.0,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "minus": [
+        1.0,
+        -0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "maximum_entropy": {
+      "plus": [
+        1.0,
+        0.3333333333333333,
+        0.37959270071998935
+      ],
+      "minus": [
+        1.0,
+        -0.3333333333333333,
+        0.37959270071998935
+      ]
+    }
+  },
+  "root_counts": [
+    {
+      "completion": "linear",
+      "sector": "longitudinal",
+      "count": 8
+    },
+    {
+      "completion": "linear",
+      "sector": "transverse",
+      "count": 5
+    },
+    {
+      "completion": "maximum_entropy",
+      "sector": "longitudinal",
+      "count": 8
+    },
+    {
+      "completion": "maximum_entropy",
+      "sector": "transverse",
+      "count": 5
+    }
+  ],
+  "max_closure_matrix_error": 6.106226635438361e-16,
+  "max_closure_characteristic_error": 2.7755575615628914e-15,
+  "validated_linear_root_brackets": 13,
+  "max_direct512_residual": 2.664535264662051e-13
+}

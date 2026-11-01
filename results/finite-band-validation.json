@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "tests": 5,
+  "formal_combination_disk_checks": 1000,
+  "rational_cubic_attainers": 72,
+  "other_original_factor_attainers": {
+    "endpoint": 96,
+    "plateau": 108
+  },
+  "exact_transition_cases": 36,
+  "random_enclosures": 150,
+  "scale_extremes": [
+    "1e-50",
+    "1e50"
+  ],
+  "scope": "Full finite-band theorem corroboration,original-factor witnesses and enclosures;not physical usefulness or priority validation",
+  "source_sha256": "68cad6ca913b0eeaffb3e6c3f09bfb959c25f301d620ada4171cc0b883c2f39d",
+  "algorithm_sha256": "e0fd9e4dce56dbb1c115690e8d7f14f4a419e6620cac2906d61886a448a9ddb5"
+}

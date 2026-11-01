@@ -1,0 +1,7 @@
+equal_zero_flux 1 completed 84
+equal_zero_flux 1/2 completed 168
+fiducial_axial 1 completed 252
+fiducial_axial 1/2 completed 336
+single_species 1 completed 420
+single_species 1/2 completed 504
+gate True certified 504 zero_flux_attained 22

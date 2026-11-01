@@ -1,0 +1,122 @@
+{
+  "exact_axial_frequency_classification": {
+    "status": "verified within stated positive-measure model",
+    "evidence": [
+      "results/screen.json",
+      "results/independent-replay.json",
+      "independent_verifier.py"
+    ],
+    "scope": "504 rational frequencies; existential perfrequency; not universalinstability"
+  },
+  "smooth_matched_second_moment_instability": {
+    "status": "validated brackets plus independent floating crosscheck",
+    "evidence": [
+      "results/smooth.json",
+      "smooth_check.py",
+      "results/independent_scipy_smooth.json",
+      "independent_scipy_smooth.py",
+      "PHYSICAL_SCOPE.md"
+    ],
+    "scope": "number moments; specific6concentrations;4roots; no-bracket is not stability"
+  },
+  "grid_boundary_discrepancy": {
+    "status": "verified designedcounterexample",
+    "evidence": [
+      "results/stress.json",
+      "results/independent-replay.json"
+    ],
+    "scope": "finitegrids innerapproximations; not random errorrate or solvererror"
+  },
+  "high_impact_novelty_and_practical_superiority": {
+    "status": "not established",
+    "evidence": [
+      "NOVELTY.md",
+      "independent_draft_review.md",
+      "NEXT_RESEARCH.md"
+    ]
+  },
+  "full_objective": {
+    "status": "incomplete",
+    "remaining": [
+      "priority/usefulness",
+      "realnumbermomentprovenance",
+      "authorizedGitHubpublication",
+      "practicalutilityandbroaderphysicalconstraints"
+    ]
+  },
+  "sharp_growth_envelopes_all_real_frequencies": {
+    "status": "independently checked proof; priority unestablished",
+    "evidence": [
+      "offaxis-independent.md",
+      "offaxis-independent.py",
+      "independent-global-bound-review.md",
+      "results/offaxis-independent.json",
+      "test_sharp_envelope.py"
+    ],
+    "scope": "equalmass,zeroflux,axial; fixedk; allReomega; equalityonlyReomega0"
+  },
+  "sharp_second_number_moment_all_k_caps": {
+    "status": "independently checked proof and exact attaining construction; priority unestablished",
+    "scope": "equalN,zeroFlux,axial,Q\u00b1prescribed; maximumoverallkandReomega; bothQ0andRproduct0stable; nofixedksharpnessclaim",
+    "evidence": [
+      "independent-second-moment.md",
+      "second_moment_bounds.py",
+      "test_second_moment_bounds.py",
+      "results/second_moment_bounds_validation.json",
+      "independent-global-bound-review.md"
+    ]
+  },
+  "strong_continuous_comparison": {
+    "status": "722exact,682coniccertified,40stressunresolved,nocertifieddisagreement; NOendtoendspeedadvantage",
+    "evidence": [
+      "independent-continuous-review.plan.md",
+      "independent-continuous-review.md",
+      "results/continuous-baseline.json",
+      "results/continuous-replay.json"
+    ],
+    "timing": "medianpairedconicgenerationpluscheck/exactgenerationpluscheck0.737onjointlycertifiedcases"
+  },
+  "general_supplied_M2_frequency_diagnostic": {
+    "status": "independently proved locus and verified implementation",
+    "evidence": [
+      "m2_frequency.py",
+      "independent_m2_verifier.py",
+      "independent-m2-locus.md",
+      "results/m2_independent_validation.json",
+      "results/m2-screen-replay.json"
+    ],
+    "scope": "positive axial N,M,Q; nonzero reducedk; rationalwrandpositive rationalgamma2; existentialfrequency; generallyup to3atoms; notclosureprediction"
+  },
+  "finite_band_cubic_extremum": {
+    "status": "independently reviewed globalbound and sharp restrictedband/limit",
+    "evidence": [
+      "finite-k-independent.md",
+      "independent-finite-k-review.md",
+      "finite-k-cap-checks.py",
+      "results/finite-k-cap-checks.json"
+    ],
+    "scope": "equalN,zeroFlux,equalQ=Na; everyReomega; earlier partial result preserved; superseded by complete finite_band_equal_second_moment_envelope; no physical UV cutoff"
+  },
+  "counterflux_extra_information_utility_gate": {
+    "status": "FAILED:0additionalexclusions;all8growingclosuremodesM2andM1compatible",
+    "evidence": [
+      "M2_COMPATIBILITY_PLAN.md",
+      "results/m2-counterflux-screen.json",
+      "results/m2-screen-replay.json",
+      "results/counterflux-reference-replay.json"
+    ],
+    "scope": "fixed17physicalKpoints; polynomialMinerbo/FTclosure; prescribedcontinuuminputnotastrophysicalsnapshot;13validatedlinearroots;MErootsnumeric"
+  },
+  "finite_band_equal_second_moment_envelope": {
+    "claim": "Complete sharp max over every real omega and0<=k<=K, for each species moments(N,0,Na): endpoint,cubic,plateau pieces with positive atomic attainers",
+    "evidence": [
+      "finite-k-transition-audit.md",
+      "independent-full-band-review.md",
+      "finite_band_envelope.py",
+      "test_finite_band_envelope.py",
+      "results/finite-band-validation.json"
+    ],
+    "scope": "N>0,0<=a<=1,K>=0; local collisionless axial fast model, propagation along axis; exact rational inputs to evaluator; not every completion unstable; no physical cutoff, general unequalQ finiteK result, priority guarantee or practical superiority",
+    "status": "mathematical proof plus independent review and exact checks; usefulness and priority unestablished"
+  }
+}

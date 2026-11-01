@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/counterflux_modes.py", line 150, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-positive-moments-2026-11-01/counterflux_modes.py", line 133, in main
+    if cm>1e-12:raise RuntimeError('closure formula/matrix mismatch')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: closure formula/matrix mismatch

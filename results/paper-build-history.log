@@ -1,0 +1,3 @@
+First M2-extension compile exited1: Typst required separate N x in new locus equation. Prior valid PDF retained. Corrected source before retry.
+Visual review found long radius-factor identity colliding with its equation number. Split into definition/factor lines and clarified function-index spacing; rerender required.
+Final visual check: explicitly grouped the asymptotic numerator Gamma_c(K) and kept its introduction with the display to avoid Typst fraction precedence and a page split.

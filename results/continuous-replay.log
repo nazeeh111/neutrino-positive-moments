@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "canonical_cases": 722,
+  "exact_proofs": 722,
+  "conic_proofs": 682,
+  "unresolved_conic_stress_cases": 40,
+  "mutated_controls_rejected": 3,
+  "standard_library_only": true,
+  "python_optimized": true,
+  "data_sha256": "f9eadff1cd7c112718c38a6fb793520c597bbcf7597a3cf264903da97487f436",
+  "checker_sha256": "1f79a4dfbcfe9ccc180ff1bdd01579c25b0902fa6960ae19b7448ec10a347bce",
+  "replay_sha256": "997792e5a078c317d72eeabe1725d05be7b8adbbde7fa77867db81533f789b2e"
+}

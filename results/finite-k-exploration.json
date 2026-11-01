@@ -1,0 +1,335 @@
+{
+  "scope": "Bounded exploratory LP attack on a fixed-k equal-Q conjecture.\n\nThe endpoint/central atom family supplies an attainable pure-imaginary\nrate g2=2(1-a)ka-k\u00b2a\u00b2 below k*=(1-a)/a and (1-a)\u00b2 above it.\nThe full all-Re claim is NOT assumed. This file searches specified points\n1.001 times above that rate on a finite angular grid; feasibility gives\na candidate counterexample, infeasibility does not prove continuous\ninfeasibility. No production geometry is imported.\n",
+  "rows": [
+    {
+      "a": 0.3333333333333333,
+      "k": 0.5,
+      "real": 0,
+      "gamma": 0.44139951039594255,
+      "attainer_gamma_squared": 0.19444444444444448,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.005255833035334945
+    },
+    {
+      "a": 0.3333333333333333,
+      "k": 0.5,
+      "real": 0.1,
+      "gamma": 0.44139951039594255,
+      "attainer_gamma_squared": 0.19444444444444448,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0037874580011703074
+    },
+    {
+      "a": 0.3333333333333333,
+      "k": 0.5,
+      "real": 0.25,
+      "gamma": 0.44139951039594255,
+      "attainer_gamma_squared": 0.19444444444444448,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0028835839475505054
+    },
+    {
+      "a": 0.3333333333333333,
+      "k": 0.5,
+      "real": 0.5,
+      "gamma": 0.44139951039594255,
+      "attainer_gamma_squared": 0.19444444444444448,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.002797249995637685
+    },
+    {
+      "a": 0.3333333333333333,
+      "k": 0.5,
+      "real": 1,
+      "gamma": 0.44139951039594255,
+      "attainer_gamma_squared": 0.19444444444444448,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0026770420372486115
+    },
+    {
+      "a": 0.1,
+      "k": 0.5,
+      "real": 0,
+      "gamma": 0.29609979314413576,
+      "attainer_gamma_squared": 0.08750000000000001,
+      "grid_nodes": 257,
+      "lp_status": 0,
+      "seconds": 0.003087333985604346,
+      "residual": 1.2212453270876722e-15,
+      "atoms": [
+        {
+          "species": 0,
+          "u": -0.9921875,
+          "weight": 0.0014648923544512817
+        },
+        {
+          "species": 0,
+          "u": -0.9296875,
+          "weight": 0.1015970502577036
+        },
+        {
+          "species": 0,
+          "u": 0.09375,
+          "weight": 0.6808189686695737
+        },
+        {
+          "species": 0,
+          "u": 0.1484375,
+          "weight": 0.21611908871827132
+        },
+        {
+          "species": 1,
+          "u": -0.1484375,
+          "weight": 0.10577874700591887
+        },
+        {
+          "species": 1,
+          "u": -0.125,
+          "weight": 0.20040320443015106
+        },
+        {
+          "species": 1,
+          "u": -0.09375,
+          "weight": 0.5904435138558235
+        },
+        {
+          "species": 1,
+          "u": 0.9296875,
+          "weight": 0.10337453470810722
+        }
+      ]
+    },
+    {
+      "a": 0.1,
+      "k": 0.5,
+      "real": 0.1,
+      "gamma": 0.29609979314413576,
+      "attainer_gamma_squared": 0.08750000000000001,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0035812080022878945
+    },
+    {
+      "a": 0.1,
+      "k": 0.5,
+      "real": 0.25,
+      "gamma": 0.29609979314413576,
+      "attainer_gamma_squared": 0.08750000000000001,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.00287837500218302
+    },
+    {
+      "a": 0.1,
+      "k": 0.5,
+      "real": 0.5,
+      "gamma": 0.29609979314413576,
+      "attainer_gamma_squared": 0.08750000000000001,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0028180830413475633
+    },
+    {
+      "a": 0.1,
+      "k": 0.5,
+      "real": 1,
+      "gamma": 0.29609979314413576,
+      "attainer_gamma_squared": 0.08750000000000001,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0025024170172400773
+    },
+    {
+      "a": 0.7,
+      "k": 0.1,
+      "real": 0,
+      "gamma": 0.19280621644542478,
+      "attainer_gamma_squared": 0.0371,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0026131249614991248
+    },
+    {
+      "a": 0.7,
+      "k": 0.1,
+      "real": 0.1,
+      "gamma": 0.19280621644542478,
+      "attainer_gamma_squared": 0.0371,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0025486249942332506
+    },
+    {
+      "a": 0.7,
+      "k": 0.1,
+      "real": 0.25,
+      "gamma": 0.19280621644542478,
+      "attainer_gamma_squared": 0.0371,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0039138339925557375
+    },
+    {
+      "a": 0.7,
+      "k": 0.1,
+      "real": 0.5,
+      "gamma": 0.19280621644542478,
+      "attainer_gamma_squared": 0.0371,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.002949334040749818
+    },
+    {
+      "a": 0.7,
+      "k": 0.1,
+      "real": 1,
+      "gamma": 0.19280621644542478,
+      "attainer_gamma_squared": 0.0371,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0026606250321492553
+    },
+    {
+      "a": 0.1,
+      "k": 2,
+      "real": 0,
+      "gamma": 0.5662511103741873,
+      "attainer_gamma_squared": 0.32000000000000006,
+      "grid_nodes": 257,
+      "lp_status": 0,
+      "seconds": 0.003915707988198847,
+      "residual": 1.2212453270876722e-15,
+      "atoms": [
+        {
+          "species": 0,
+          "u": -0.875,
+          "weight": 0.049603195796545714
+        },
+        {
+          "species": 0,
+          "u": -0.6015625,
+          "weight": 0.12328043437816968
+        },
+        {
+          "species": 0,
+          "u": 0.0078125,
+          "weight": 0.037058869463791055
+        },
+        {
+          "species": 0,
+          "u": 0.1484375,
+          "weight": 0.790057500361494
+        },
+        {
+          "species": 1,
+          "u": -0.1484375,
+          "weight": 0.7881060723360299
+        },
+        {
+          "species": 1,
+          "u": -0.0078125,
+          "weight": 0.03553896309863945
+        },
+        {
+          "species": 1,
+          "u": 0.5390625,
+          "weight": 0.11028376032171389
+        },
+        {
+          "species": 1,
+          "u": 0.875,
+          "weight": 0.0660712042436156
+        }
+      ]
+    },
+    {
+      "a": 0.1,
+      "k": 2,
+      "real": 0.1,
+      "gamma": 0.5662511103741873,
+      "attainer_gamma_squared": 0.32000000000000006,
+      "grid_nodes": 257,
+      "lp_status": 0,
+      "seconds": 0.0030792090110480785,
+      "residual": 1.7763568394002505e-15,
+      "atoms": [
+        {
+          "species": 0,
+          "u": -0.859375,
+          "weight": 0.026016135100907153
+        },
+        {
+          "species": 0,
+          "u": -0.640625,
+          "weight": 0.11085956451340007
+        },
+        {
+          "species": 0,
+          "u": -0.4140625,
+          "weight": 0.08342366428244544
+        },
+        {
+          "species": 0,
+          "u": 0.1640625,
+          "weight": 0.7797006361032479
+        },
+        {
+          "species": 1,
+          "u": -0.1484375,
+          "weight": 0.40890277524082
+        },
+        {
+          "species": 1,
+          "u": -0.0703125,
+          "weight": 0.4887808411270793
+        },
+        {
+          "species": 1,
+          "u": 0.890625,
+          "weight": 0.06353849396597794
+        },
+        {
+          "species": 1,
+          "u": 0.9921875,
+          "weight": 0.03877788966612447
+        }
+      ]
+    },
+    {
+      "a": 0.1,
+      "k": 2,
+      "real": 0.25,
+      "gamma": 0.5662511103741873,
+      "attainer_gamma_squared": 0.32000000000000006,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.004907333990558982
+    },
+    {
+      "a": 0.1,
+      "k": 2,
+      "real": 0.5,
+      "gamma": 0.5662511103741873,
+      "attainer_gamma_squared": 0.32000000000000006,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.003724207985214889
+    },
+    {
+      "a": 0.1,
+      "k": 2,
+      "real": 1,
+      "gamma": 0.5662511103741873,
+      "attainer_gamma_squared": 0.32000000000000006,
+      "grid_nodes": 257,
+      "lp_status": 2,
+      "seconds": 0.0036432499764487147
+    }
+  ],
+  "source_sha256": "01bc2ac6a02c4671348ad06289b389ecb7379cf5e6539085174908ebafafc5ee"
+}

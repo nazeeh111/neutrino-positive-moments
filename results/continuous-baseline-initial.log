@@ -1,0 +1,105 @@
+repetition 1/3 complete (722 cases)
+repetition 2/3 complete (722 cases)
+repetition 3/3 complete (722 cases)
+{
+  "all": {
+    "count": 722,
+    "exact": {
+      "possible": 133,
+      "impossible": 589,
+      "unresolved": 0,
+      "median_generation_seconds": 0.003480521001620218
+    },
+    "conic": {
+      "possible": 107,
+      "impossible": 564,
+      "unresolved": 51,
+      "median_generation_seconds": 0.0053668959881179035
+    },
+    "floating_geometry": {
+      "possible": 143,
+      "impossible": 579,
+      "unresolved": 0,
+      "median_generation_seconds": 0.0006335005164146423
+    },
+    "conic_exact_disagreements": 0,
+    "float_exact_disagreements": 10,
+    "jointly_certified": 671,
+    "median_conic_over_exact_generation_ratio_joint": 1.669698199109371
+  },
+  "development_screen": {
+    "count": 504,
+    "exact": {
+      "possible": 72,
+      "impossible": 432,
+      "unresolved": 0,
+      "median_generation_seconds": 0.003388208511751145
+    },
+    "conic": {
+      "possible": 72,
+      "impossible": 432,
+      "unresolved": 0,
+      "median_generation_seconds": 0.005242666520643979
+    },
+    "floating_geometry": {
+      "possible": 72,
+      "impossible": 432,
+      "unresolved": 0,
+      "median_generation_seconds": 0.0006141880003269762
+    },
+    "conic_exact_disagreements": 0,
+    "float_exact_disagreements": 0,
+    "jointly_certified": 504,
+    "median_conic_over_exact_generation_ratio_joint": 1.648882506927683
+  },
+  "designed_stress": {
+    "count": 90,
+    "exact": {
+      "possible": 50,
+      "impossible": 40,
+      "unresolved": 0,
+      "median_generation_seconds": 0.006537270965054631
+    },
+    "conic": {
+      "possible": 24,
+      "impossible": 15,
+      "unresolved": 51,
+      "median_generation_seconds": 0.0265467494900804
+    },
+    "floating_geometry": {
+      "possible": 60,
+      "impossible": 30,
+      "unresolved": 0,
+      "median_generation_seconds": 0.000733833498088643
+    },
+    "conic_exact_disagreements": 0,
+    "float_exact_disagreements": 10,
+    "jointly_certified": 39,
+    "median_conic_over_exact_generation_ratio_joint": 0.3213697458159443
+  },
+  "fresh_synthetic": {
+    "count": 128,
+    "exact": {
+      "possible": 11,
+      "impossible": 117,
+      "unresolved": 0,
+      "median_generation_seconds": 0.002983374462928623
+    },
+    "conic": {
+      "possible": 11,
+      "impossible": 117,
+      "unresolved": 0,
+      "median_generation_seconds": 0.0055010000069160014
+    },
+    "floating_geometry": {
+      "possible": 11,
+      "impossible": 117,
+      "unresolved": 0,
+      "median_generation_seconds": 0.0006266249984037131
+    },
+    "conic_exact_disagreements": 0,
+    "float_exact_disagreements": 0,
+    "jointly_certified": 128,
+    "median_conic_over_exact_generation_ratio_joint": 1.8975109345991183
+  }
+}

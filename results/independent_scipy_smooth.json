@@ -1,0 +1,246 @@
+{
+  "kind": "independent floating-point crosscheck, not interval certification",
+  "python": "3.12.15",
+  "executable": "/Users/nazeeh/Documents/ChatGPT/Continue/neutrino-moment-certificates-2026-11-01/.venv/bin/python",
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "source_sha256": "8dc63f4a2a95f641f12f73c5772de65020d54b89bc15da7669487739907f2d46",
+  "smooth_json_sha256": "467072b0bdbda18a0cee474a65feb8f088071e74b179814c0251713db8040aea",
+  "cases": [
+    {
+      "kappa": 2,
+      "plus_moments": [
+        1.0000000000000002,
+        -1.790963852441968e-17,
+        0.33333333333333337
+      ],
+      "quad_error_estimates": [
+        1.1102230246251569e-14,
+        5.5243274121705556e-15,
+        3.700743415417189e-15
+      ],
+      "maximum_moment_deviation": 2.220446049250313e-16,
+      "minus_moments_by_reflection": [
+        1.0000000000000002,
+        1.790963852441968e-17,
+        0.33333333333333337
+      ],
+      "saved_status": "no_certified_bracket"
+    },
+    {
+      "kappa": 4,
+      "plus_moments": [
+        1.0,
+        -6.915982238946492e-18,
+        0.33333333333333337
+      ],
+      "quad_error_estimates": [
+        1.1102230246251565e-14,
+        5.489749680974922e-15,
+        3.700743415417189e-15
+      ],
+      "maximum_moment_deviation": 5.551115123125783e-17,
+      "minus_moments_by_reflection": [
+        1.0,
+        6.915982238946492e-18,
+        0.33333333333333337
+      ],
+      "saved_status": "no_certified_bracket"
+    },
+    {
+      "kappa": 8,
+      "plus_moments": [
+        0.9999999999999998,
+        -8.326672684688674e-17,
+        0.33333333333333337
+      ],
+      "quad_error_estimates": [
+        1.1102230246251565e-14,
+        5.435097057563489e-15,
+        3.700743415279325e-15
+      ],
+      "maximum_moment_deviation": 2.220446049250313e-16,
+      "minus_moments_by_reflection": [
+        0.9999999999999998,
+        8.326672684688674e-17,
+        0.33333333333333337
+      ],
+      "saved_status": "certified_growing_mode",
+      "gamma": 0.2669392338199873,
+      "saved_bracket": [
+        "2733/10240",
+        "1367/5120"
+      ],
+      "endpoint_real_determinants": [
+        0.00013937153418330794,
+        -0.00016506514021417257
+      ],
+      "complex_determinant_residual": [
+        -3.608224830031759e-16,
+        0.0
+      ],
+      "absolute_residual": 3.608224830031759e-16,
+      "root_integral_error_estimates": [
+        [
+          1.7912130130018544e-14,
+          1.2905407949432224e-14
+        ],
+        [
+          8.972890949751183e-15,
+          4.776100777070831e-15
+        ],
+        [
+          5.8377272307152736e-15,
+          2.3952166352768792e-15
+        ]
+      ]
+    },
+    {
+      "kappa": 16,
+      "plus_moments": [
+        1.0,
+        -4.163336342344337e-17,
+        0.33333333333333337
+      ],
+      "quad_error_estimates": [
+        1.5398417583116556e-13,
+        5.387391593184866e-15,
+        3.700749769483689e-15
+      ],
+      "maximum_moment_deviation": 5.551115123125783e-17,
+      "minus_moments_by_reflection": [
+        1.0,
+        4.163336342344337e-17,
+        0.33333333333333337
+      ],
+      "saved_status": "certified_growing_mode",
+      "gamma": 0.41343493440451845,
+      "saved_bracket": [
+        "4233/10240",
+        "2117/5120"
+      ],
+      "endpoint_real_determinants": [
+        0.00016100899892212972,
+        -0.00011960529222368455
+      ],
+      "complex_determinant_residual": [
+        1.6653345369377348e-16,
+        0.0
+      ],
+      "absolute_residual": 1.6653345369377348e-16,
+      "root_integral_error_estimates": [
+        [
+          5.158992486063475e-14,
+          1.988414823100301e-14
+        ],
+        [
+          9.861830839187366e-15,
+          2.130913481706588e-14
+        ],
+        [
+          1.2283312981299076e-14,
+          4.077225386107886e-15
+        ]
+      ]
+    },
+    {
+      "kappa": 32,
+      "plus_moments": [
+        1.0000000000000002,
+        7.035116846715317e-17,
+        0.33333333333333337
+      ],
+      "quad_error_estimates": [
+        1.1886077955774034e-14,
+        1.0221585726359208e-14,
+        9.039634707887711e-15
+      ],
+      "maximum_moment_deviation": 2.220446049250313e-16,
+      "minus_moments_by_reflection": [
+        1.0000000000000002,
+        -7.035116846715317e-17,
+        0.33333333333333337
+      ],
+      "saved_status": "certified_growing_mode",
+      "gamma": 0.4935616710658531,
+      "saved_bracket": [
+        "2527/5120",
+        "1011/2048"
+      ],
+      "endpoint_real_determinants": [
+        1.919990995269405e-05,
+        -0.0002492414493259487
+      ],
+      "complex_determinant_residual": [
+        -8.326672684688674e-17,
+        0.0
+      ],
+      "absolute_residual": 8.326672684688674e-17,
+      "root_integral_error_estimates": [
+        [
+          2.273878960320048e-14,
+          2.343358661972464e-14
+        ],
+        [
+          9.379498868434099e-15,
+          1.1137543423979653e-14
+        ],
+        [
+          1.1068801959673252e-14,
+          4.629361135264611e-15
+        ]
+      ]
+    },
+    {
+      "kappa": 64,
+      "plus_moments": [
+        1.0,
+        -6.827763181227464e-17,
+        0.33333333333333337
+      ],
+      "quad_error_estimates": [
+        2.3753928655826518e-14,
+        2.9361892758287863e-14,
+        6.032806362283558e-14
+      ],
+      "maximum_moment_deviation": 6.827763181227464e-17,
+      "minus_moments_by_reflection": [
+        1.0,
+        6.827763181227464e-17,
+        0.33333333333333337
+      ],
+      "saved_status": "certified_growing_mode",
+      "gamma": 0.5352017806759694,
+      "saved_bracket": [
+        "137/256",
+        "5481/10240"
+      ],
+      "endpoint_real_determinants": [
+        0.00012206806840461826,
+        -0.00013972441644335976
+      ],
+      "complex_determinant_residual": [
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "absolute_residual": 2.220446049250313e-16,
+      "root_integral_error_estimates": [
+        [
+          1.7280407389757682e-14,
+          2.4553108368108268e-14
+        ],
+        [
+          8.844056650482804e-15,
+          9.339189167748358e-15
+        ],
+        [
+          6.057118347651584e-15,
+          4.733354867737546e-15
+        ]
+      ]
+    }
+  ],
+  "moment_profiles_checked": 6,
+  "roots_checked": 4,
+  "passed": true
+}

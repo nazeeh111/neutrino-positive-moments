@@ -1,0 +1,16 @@
+test_algebraic_witness_serialization_and_false_geometry (test_independent_verifier.IndependentChecks.test_algebraic_witness_serialization_and_false_geometry) ... ok
+test_bad_support_weight_and_serialized_exact_input (test_independent_verifier.IndependentChecks.test_bad_support_weight_and_serialized_exact_input) ... ok
+test_closed_disk_degeneracies_and_pair_candidates (test_independent_verifier.IndependentChecks.test_closed_disk_degeneracies_and_pair_candidates) ... ok
+test_fixed_zero_species_impossibility (test_independent_verifier.IndependentChecks.test_fixed_zero_species_impossibility) ... ok
+test_invalid_inputs_and_unresolved_refuse (test_independent_verifier.IndependentChecks.test_invalid_inputs_and_unresolved_refuse) ... ok
+test_longitudinal_attained_endpoint_root (test_independent_verifier.IndependentChecks.test_longitudinal_attained_endpoint_root) ... ok
+test_quadratic_order_division_and_near_cancellation (test_independent_verifier.IndependentChecks.test_quadratic_order_division_and_near_cancellation) ... ok
+test_random_atomic_roundtrips_and_direct_sectors (test_independent_verifier.IndependentChecks.test_random_atomic_roundtrips_and_direct_sectors) ... ok
+test_rational_dual_and_false_certificates (test_independent_verifier.IndependentChecks.test_rational_dual_and_false_certificates) ... ok
+test_transverse_root_and_sector_mutation (test_independent_verifier.IndependentChecks.test_transverse_root_and_sector_mutation) ... ok
+test_zero_A_nonzero_B (test_independent_verifier.IndependentChecks.test_zero_A_nonzero_B) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.131s
+
+OK

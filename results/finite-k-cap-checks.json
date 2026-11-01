@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tests": 3,
+  "formal_radius_identity_rational_checks": 1000,
+  "gram_disk_identity_checks": 400,
+  "exact_sharp_attainers_original_dispersion_checks": 72,
+  "strict_improvements_over_endpoint_family": 60,
+  "scope": "All-real-frequency upper bound; exact attainment only in stated low-Q subregime. Not full fixed-k envelope.",
+  "standard_library_only": true,
+  "source_sha256": "d030422a6beb95303f7c01f9769fcccb4d9cbb384ae9f2bff3c4b1e2e9b7738b"
+}

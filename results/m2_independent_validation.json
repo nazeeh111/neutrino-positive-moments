@@ -1,0 +1,43 @@
+{
+  "scope": "Independent exact M2 locus derivation, checker and integration audit; no scientific utility conclusion.",
+  "python_standard_library_checker": true,
+  "ordinary_python": {
+    "tests": 9,
+    "passed": 9
+  },
+  "optimized_python": {
+    "tests": 9,
+    "passed": 9
+  },
+  "locus_arbitrary_candidate_checks": 1500,
+  "constructive_positive_radau_completions": 250,
+  "production_vs_interpolated_ellipse_pairs": 250,
+  "seeded_classifications": {
+    "total": 200,
+    "possible": 47,
+    "impossible": 153,
+    "independent_m1_positive_checks": 47,
+    "old_m1_classification_checks": 42,
+    "genuine_quadratic_positive_witnesses": 30
+  },
+  "commands": [
+    "PYTHONDONTWRITEBYTECODE=1 python3 -O -m unittest -v test_independent_m2_locus.py",
+    "PYTHONDONTWRITEBYTECODE=1 ../neutrino-moment-certificates-2026-11-01/.venv/bin/python -m unittest -v test_independent_m2_locus.py test_m2_independent_integration.py",
+    "PYTHONDONTWRITEBYTECODE=1 ../neutrino-moment-certificates-2026-11-01/.venv/bin/python -O -m unittest -v test_independent_m2_locus.py test_m2_independent_integration.py"
+  ],
+  "limits": [
+    "Finite exact checks support implementation; sufficiency for all real admissible data follows from the independent constructive proof.",
+    "Generic M2 completion needs at most three atoms; two atoms are sometimes insufficient.",
+    "No timing advantage or physical utility inferred from these checks."
+  ],
+  "source_sha256": {
+    "independent-m2-locus.md": "257ffd32d93462ac8ce7238b7ddf994a8a4090911498224ca40bf3734bea584c",
+    "independent_m2_verifier.py": "693a809992a4df303d70374167478aa7499b0edea0398be917c58965a3a0a62e",
+    "test_independent_m2_locus.py": "9eb0c3df5f95782ac3838583be10700b4450b0b2bb6002c731e2f00911ff0f14",
+    "test_m2_independent_integration.py": "4d36c69d8e13372740c8efed48c80fecc479906277e94b071f5ddc3bbdca8bda",
+    "independent_verifier.py": "1f79a4dfbcfe9ccc180ff1bdd01579c25b0902fa6960ae19b7448ec10a347bce",
+    "m2_frequency.py": "cdf04746136abad80ed83eaac13f15dcd06ed8a83b1ef3b301ee53cf51cd7da7",
+    "moments.py": "391114c88b700ef64c5a093c9ce0e9e3fb013719cea29233bd7d4dca83053bd8",
+    "geometry.py": "d6aaebf0dbf9478d6b136a5e7e6b64686ae8feec14285057b3e0efc717c81509"
+  }
+}

@@ -1,0 +1,30 @@
+name: Exact research checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  exact-proofs:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Verify the published file manifest
+        run: python3 -B -O verify_bundle.py
+      - name: Replay original exact and continuous-baseline certificates
+        run: |
+          python3 -B -O verify_all.py
+          python3 -B -O independent_continuous_replay.py
+          python3 -B -O verify_m2_screen.py
+      - name: Check the global and complete finite-band theorems
+        run: |
+          python3 -B -O offaxis-independent.py
+          python3 -B -O finite-k-cap-checks.py
+          python3 -B -O test_finite_band_envelope.py
+          python3 -B -O independent_full_band_check.py
+          python3 -B -O test_moment_precision.py
+      - name: Check exact moment algebra
+        run: python3 -B -O -m unittest -v test_independent_verifier test_sharp_envelope test_second_moment_bounds test_independent_m2_locus

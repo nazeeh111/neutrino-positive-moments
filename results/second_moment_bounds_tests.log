@@ -1,0 +1,23 @@
+Command: /Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -m unittest -v test_second_moment_bounds.py
+test_exact_original_dispersion_and_positive_moments (test_second_moment_bounds.SecondMomentTest.test_exact_original_dispersion_and_positive_moments) ... ok
+test_invalid_inputs (test_second_moment_bounds.SecondMomentTest.test_invalid_inputs) ... ok
+test_r_interface_and_fraction_strings (test_second_moment_bounds.SecondMomentTest.test_r_interface_and_fraction_strings) ... ok
+test_stable_controls (test_second_moment_bounds.SecondMomentTest.test_stable_controls) ... ok
+test_zero_central_node (test_second_moment_bounds.SecondMomentTest.test_zero_central_node) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.475s
+
+OK
+
+Command: /Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -O -m unittest -v test_second_moment_bounds.py
+test_exact_original_dispersion_and_positive_moments (test_second_moment_bounds.SecondMomentTest.test_exact_original_dispersion_and_positive_moments) ... ok
+test_invalid_inputs (test_second_moment_bounds.SecondMomentTest.test_invalid_inputs) ... ok
+test_r_interface_and_fraction_strings (test_second_moment_bounds.SecondMomentTest.test_r_interface_and_fraction_strings) ... ok
+test_stable_controls (test_second_moment_bounds.SecondMomentTest.test_stable_controls) ... ok
+test_zero_central_node (test_second_moment_bounds.SecondMomentTest.test_zero_central_node) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.477s
+
+OK
