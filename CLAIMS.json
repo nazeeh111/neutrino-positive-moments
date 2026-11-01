@@ -118,5 +118,20 @@
     ],
     "scope": "N>0,0<=a<=1,K>=0; local collisionless axial fast model, propagation along axis; exact rational inputs to evaluator; not every completion unstable; no physical cutoff, general unequalQ finiteK result, priority guarantee or practical superiority",
     "status": "mathematical proof plus independent review and exact checks; usefulness and priority unestablished"
+  },
+  "priority_and_usefulness_audit": {
+    "status": "genuine priority and operational astrophysical usefulness not established",
+    "evidence": [
+      "priority-red-team.md",
+      "utility-red-team.md",
+      "usefulness-assessment/compare_bounds.py",
+      "usefulness-assessment/isotropic-bound-comparison.json"
+    ],
+    "findings": [
+      "Complete finite-band envelope is strongest plausible specialized theorem contribution; generic classifier substantially specializes classical methods",
+      "Isotropic complete-envelope refinement tightens the combination of earlier project-derived caps by at most1-sqrt(8/9), not a claim about every parameter regime or the novelty of earlier caps",
+      "An existential diagnostic cannot reject an exact mode of an admissible moment-preserving positive quadrature",
+      "No newly specified provenance-supported operational experiment passed; original utility and speed results unchanged"
+    ]
   }
 }

@@ -64,10 +64,10 @@ for ax,a in zip(axes,(Fraction(3,50),Fraction(1,3))):
             poly=mid**3-aa*mid**2+aa*kval*kval*mid-aa*kval*kval
             if poly<0:lo=mid
             else:hi=mid
-        prior.append(min(1-aa,(lo+hi)/2))
+        prior.append(min(np.sqrt(kval/(kval+2)),1-aa,(lo+hi)/2))
         family.append(1-aa if kval>=(1-aa)/aa else np.sqrt(2*aa*(1-aa)*kval-aa*aa*kval*kval))
         figure_records.append({'a':str(a),'k':str(kr),'branch':answer['branch'],'growth_lower':str(lower),'growth_upper':str(upper)})
-    ax.plot(ks,prior,color='#a35b22',ls='--',lw=1.3,label='Previous upper bound')
+    ax.plot(ks,prior,color='#a35b22',ls='--',lw=1.3,label='Combined prior caps')
     ax.plot(ks,family,color='#999999',ls=':',lw=2.2,label='Endpoint family, band max')
     ax.plot(ks,sharp,color='#204e82',lw=1.6,label='Sharp finite-band max')
     ax.set(xscale='log',xlabel='Band limit K / N',ylabel='Maximum growth γ / N',ylim=(0,1.02),title=f'Q / N = {a}')

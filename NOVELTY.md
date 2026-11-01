@@ -4,7 +4,7 @@
 
 ## Direct precedents
 
-- Philipp di Dio, Weyl Circles for one-dimensional Moment Problems, arXiv1506.06589, especially finite-interval Proposition5.13: https://arxiv.org/abs/1506.06589 . Scalar finite-moment transform circles are not new.
+- Philipp di Dio, Weyl Circles for one-dimensional Moment Problems, arXiv1506.06589, especially finite-interval Proposition5.1 and Theorem5.2 in the inspected arXiv PDF: https://arxiv.org/abs/1506.06589 . Scalar finite-moment transform circles are not new.
 - Max Heide, Bernd Fritzsche, Bernd Kirstein, Conrad Mädler, Weyl Sets in a Non-degenerate Truncated Matricial Hausdorff Moment Problem, Complex Analysis and Operator Theory18,82(2024), Theorem14.2: https://link.springer.com/article/10.1007/s11785-024-01525-1#Sec14 . Specializingq=1,n=0 gives the nondegenerate scalar mass/flux transform locus as two disks, with opposite transform sign. This is a direct ancestor of the present geometry, not merely remote conceptual inspiration.
 - Johns and Nagakura, PRD103,123012(2021): https://arxiv.org/html/2104.04106v2 . Closure versus angular completion and fixed-low-moment crossing disagreement are explicitly discussed. That framing and ambiguity are not new.
 - Abbar, JCAP05,027(2020): https://arxiv.org/abs/2003.00969 . Polynomial positive weighting of known moments detects crossings; no frequency/growth-rate output is reproduced by naming it a baseline.
@@ -37,3 +37,8 @@ The fixed physically sourced M2 counter-flux test FAILED its utility criterion: 
 ## Complete finite-band priority refresh
 
 See full-band-priority-update.md for the newly explicit Dasgupta/Mirizzi/Sen2018 zero-mode predecessor (DOI10.1103/PhysRevD.98.103001), its equation-level distinction from finite-k completion optimization, and the bounded refreshed search. Neither generic moment-only growth diagnosis nor classical disk mixtures are claimed new. The candidate contribution is the complete constrained envelope and its exact evaluator, not a proved high-impact or priority claim. The previous failed usefulness/speed gates remain unchanged.
+
+
+## Focused priority and usefulness attack
+
+See priority-red-team.md and utility-red-team.md. The complete equal-M2 envelope remains a plausible specialized theorem contribution; genuine priority is not established. The generic classifier closely specializes classical Weyl and generalized-moment optimization. Operational astrophysical usefulness and high-impact numerical advantage are not demonstrated. The corrected strongest-cap isotropic comparison limits tightening to5.7191%, and moment-preserving positive quadratures cannot have their exact roots rejected by this existential diagnostic. These are material limits, not new successful utility gates.

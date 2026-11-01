@@ -160,7 +160,9 @@ The endpoint family is genuinely nonoptimal in the cubic band. For $N=1$, $a=3/5
 
 The evaluator uses exact rational branch decisions. For $k<k_*$ put $t=2N a r/(c k)-a^2$. The cubic is active precisely when $(t+a)^2<r^2t$; equality may use the endpoint expression. Rational bisection encloses the positive root, with no angular or frequency grid. Its arithmetic cost grows with requested precision and input bit size; no measured solver speed advantage is asserted.
 
-#figure(image("finite-band.svg", width: 100%), placement: top, caption: [Complete finite-band maxima for equal second moments. The previous enclosing-disk cap can be loose; the fixed endpoint family misses the interior cubic regime. Each point optimizes over a potentially different angular completion.])
+#figure(image("finite-band.svg", width: 100%), placement: top, caption: [Complete finite-band maxima for equal second moments. The prior comparator combines the mass/flux cap, Gram cubic and supplied-second-moment all-wave-number cap. The fixed endpoint family misses the interior cubic regime. Each point optimizes over a potentially different angular completion.])
+
+*Increment over existing bounds.* For $N=1$, $Q=1/3$, combine the earlier mass/flux cap $sqrt(k/(k+2))$, second-moment cap $2/3$ and Gram cubic. The complete cap tightens their minimum by at most $1-sqrt(8/9)$, approximately $5.72%$. Indeed, below $k=8/5$ the squared ratio of the first two caps' minimum to $F_1(k)$ is $9/((k+2)(4-k))<=9/8$; between $8/5$ and $2$ it is $4/(k(4-k))<=25/24$, and beyond $2$ both plateau. Adding the cubic only reduces that ratio. Sharp attainment is mathematically stronger, but this isotropic comparison establishes only a modest numerical tightening.
 
 At fixed finite $K,N$ as $Q=N a$ tends to zero,
 $ F_c(K)/((Q K^2/c)^(1/3)) -> 1. $
@@ -238,7 +240,9 @@ The underlying finite-interval transform loci are classical @di_dio @heide. In p
 
 The construction has survived independent mathematical and physics review within its model; those reviewers were fresh-context model agents, not external human referees. Practical importance remains unproved; the fixed counter-flux closure-exclusion test failed its declared utility gate. Needed next steps include expert priority review, realistic number-moment provenance, more physical classes and independent hardware reproduction. A justified uncertainty class must incorporate any available energy/occupancy or angular regularity information. No additional scan of this same fixed closure test is justified as a way to turn its failed gate into success. Arbitrary wave-vector directions, full three-dimensional angular uncertainty, collisions, nonlinear flavor evolution and actual astrophysical consequences remain outside this result. The two equal-mass/zero-flux extremum theorems have their stated global quantifiers; the finite classifier map does not give a general all-frequency or all-wave-number census.
 
-The paper is therefore a research draft with a surviving narrow theoretical candidate, not a claim of an extraordinary breakthrough or publication readiness. The accompanying code is a reproducibility artifact; the paper has not been submitted or externally peer reviewed.
+Any positive angular quadrature preserving the supplied moments is itself an admissible completion. Every exact mode of that quadrature must therefore remain compatible, even when it is absent from the intended continuum background. The diagnostic cannot by itself filter such discretization-induced modes; analytic angular integration uses additional distributional information @morinaga. Nor does a worst-case finite-band envelope guarantee the fraction of growth captured for a fixed background, or establish a stable numerical time step.
+
+This remains an unsubmitted research draft without external peer review.
 
 #block[
 #set text(size: 9pt)

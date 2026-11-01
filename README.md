@@ -99,3 +99,10 @@ Weyl disks, Hausdorff positivity, completion ambiguity, moment-only zero-mode di
 An [exact eight-angle example](nonaxial-isotropic-audit.md) has positive species with identical density, zero vector flux and second tensor I/3, yet grows at rate1/3 while azimuthal averaging makes their signed angular distributions identical. This illustrates why projecting a nonaxial background can erase instability. It does not violate the published axial envelope or establish its extension to3D. Symmetry-breaking flavor instabilities are established prior physics.
 
 Run `python3 -B -O nonaxial-exploration/exact_projection_counterexample.py` for the exact original-equation check. A separate retained13,500-case rotated-tetrahedron exploration found no axial-bound violation; absence of a counterexample is inconclusive. See the audit and `nonaxial-exploration/PLAN.md` for limits and the weaker general growth bound.
+
+
+## Current novelty and usefulness assessment
+
+[Independent priority attack](priority-red-team.md) finds the complete finite-band envelope a plausible specialized theorem contribution, with no identical result located in the bounded search. It does not establish priority. The generic classifier substantially specializes classical moment methods. [Independent utility review](utility-red-team.md) finds no demonstrated operational astrophysical advantage.
+
+The corrected comparison includes all three applicable previous caps. For isotropic second moments, the complete theorem tightens their minimum by at most **5.72%**; `usefulness-assessment/compare_bounds.py` retains exact corroborating comparisons. The earlier figure omitted the mass/flux cap and has been corrected. Also, the diagnostic must accept any exact root of a positive quadrature preserving its supplied moments, so it cannot generally filter discretization-induced spurious modes. The theorem remains a quantitative information limit and a potential regression reference. Neither role yet establishes the requested high-impact scientific usefulness.

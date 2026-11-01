@@ -1,6 +1,6 @@
 # Scoped scientific review request, prepared locally only
 
-No message, submission or public repository has been sent or created. This is a review brief for the verified research package. The full moonshot objective is incomplete; high impact, practical superiority and priority are not established.
+The research repository is public. No expert message or paper submission has been sent. This is a review brief for the verified research package. The full moonshot objective is incomplete; high impact, practical superiority and priority are not established.
 
 ## Candidate claim, with direct predecessors acknowledged
 
