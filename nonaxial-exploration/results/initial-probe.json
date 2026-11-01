@@ -1,0 +1,28 @@
+{
+  "scope": "Exploratory300 rotatedtetrahedron pairs x45positivek; eigenvalues only, not a universal proof",
+  "best": {
+    "ratio": 0.9778287983580463,
+    "quaternions": [
+      [
+        -2,
+        -7,
+        2,
+        -3
+      ],
+      [
+        -1,
+        -2,
+        -1,
+        -6
+      ]
+    ],
+    "k": 0.001,
+    "omega": [
+      8.449660839293921e-06,
+      0.02061186413057205
+    ],
+    "axial_cap": 0.02107921567168317,
+    "case": 105
+  },
+  "source_sha256": "1c8b0ad073efc8105761e7244552623a4f34bf1b487ee5478208c61421292a56"
+}

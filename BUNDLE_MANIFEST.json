@@ -3,8 +3,8 @@
   "scope": "Public research source,proofs,canonical data,plans,reviews,failure logs,current editable paper and preserved prior drafts. Private task continuation,environments,caches,preview PNGs,partial screen and git metadata excluded. Manifest excludes itself.",
   "files": {
     ".github/workflows/verify.yml": {
-      "sha256": "7b686d10bc30d53f781d5421e039a8468dfcc49ef5cd524d727ad42135ea4299",
-      "bytes": 1170
+      "sha256": "ce3ad16f0e3fe7124644658434172f61f079bba71bc8e2e5a389f1c6b533d91c",
+      "bytes": 1310
     },
     ".gitignore": {
       "sha256": "5f0ebe68453360e278dfef71bf41e6abb9fa7eb0b8a94f95bb2165c6676500a2",
@@ -55,8 +55,8 @@
       "bytes": 5942
     },
     "README.md": {
-      "sha256": "6035c72cb3e196e4619525b819a8908b3b52f46b375d63e05ce08e93a4b1e576",
-      "bytes": 8184
+      "sha256": "4c0e8b83df232148dc6aaf4e83933335dfa25c27a1a2b1ffd6e2a7651056a015",
+      "bytes": 9037
     },
     "SMOOTH_VALIDATION_PLAN.md": {
       "sha256": "4bf1affc30bdb94d9833ddfa8ce3cea441a441b0f23992084f11b224a42fb34d",
@@ -217,6 +217,38 @@
     "moments.py": {
       "sha256": "391114c88b700ef64c5a093c9ce0e9e3fb013719cea29233bd7d4dca83053bd8",
       "bytes": 10669
+    },
+    "nonaxial-exploration/PLAN.md": {
+      "sha256": "d0443454c5a83527dbd0d2a3448c52b68168ccb92ecf2b40cc3b3dbcf843a661",
+      "bytes": 1859
+    },
+    "nonaxial-exploration/exact_projection_counterexample.py": {
+      "sha256": "e4867630a02b135913b35735ce13a26c8addf382e3e8a5eeffd1abfaa484328c",
+      "bytes": 3041
+    },
+    "nonaxial-exploration/initial_probe.py": {
+      "sha256": "1c8b0ad073efc8105761e7244552623a4f34bf1b487ee5478208c61421292a56",
+      "bytes": 1256
+    },
+    "nonaxial-exploration/probe.py": {
+      "sha256": "7b0b624a03e7286f7b9589944ae4e7ce0e4ab0518c7e88dc793a55cbf16d072a",
+      "bytes": 2837
+    },
+    "nonaxial-exploration/results/exact-projection.json": {
+      "sha256": "15efba0728da63d0add91c7e19a415acea242e70b0efc3863291e05dfe5a8ae3",
+      "bytes": 1180
+    },
+    "nonaxial-exploration/results/initial-probe.json": {
+      "sha256": "2f877b91cbdc0ef065a056bda426d984d5d030d57788a7f4a682b489e373fa3f",
+      "bytes": 549
+    },
+    "nonaxial-exploration/results/probe.json": {
+      "sha256": "7bc40f8209aa7b0c1a473e3052bf9aa53f6a6324ed12cd11e427c9e27c83004d",
+      "bytes": 3917492
+    },
+    "nonaxial-isotropic-audit.md": {
+      "sha256": "fc2465d2a67c9654b24a76101f2af7efc43d6483da38be459a321a7a37e080b1",
+      "bytes": 9392
     },
     "numerical_prototype.py": {
       "sha256": "8117baff3a488d4560ddbdd56ef692162fb0effb9dd8bd4c258d8ce595300d74",

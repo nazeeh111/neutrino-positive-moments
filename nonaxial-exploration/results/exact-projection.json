@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "species_mass": "1",
+  "species_flux": [
+    "0",
+    "0",
+    "0"
+  ],
+  "species_second_tensor": "I/3",
+  "directions_encoded": {
+    "plus": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        -1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        -1
+      ],
+      [
+        0,
+        -1,
+        -1
+      ]
+    ],
+    "minus": [
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        -1,
+        1
+      ]
+    ],
+    "coordinate_scale_squared": [
+      "2/3",
+      "2/3",
+      "1/3"
+    ]
+  },
+  "each_atom_weight": "1/4",
+  "wave_number_squared": "1/3",
+  "frequency_real": "0",
+  "growth": "1/3",
+  "polarization_diagonal": [
+    "1",
+    "-2",
+    "0",
+    "-1"
+  ],
+  "azimuthal_projection_signed_measure_zero": true,
+  "original_eigen_equations_exact": 8,
+  "scope": "Explicit exact projection-loss example; not a counterexample to the axial worst-case envelope or a novel symmetry-breaking mechanism",
+  "source_sha256": "e4867630a02b135913b35735ce13a26c8addf382e3e8a5eeffd1abfaa484328c"
+}

@@ -26,5 +26,7 @@ jobs:
           python3 -B -O test_finite_band_envelope.py
           python3 -B -O independent_full_band_check.py
           python3 -B -O test_moment_precision.py
+      - name: Check the nonaxial projection-loss example
+        run: python3 -B -O nonaxial-exploration/exact_projection_counterexample.py
       - name: Check exact moment algebra
         run: python3 -B -O -m unittest -v test_independent_verifier test_sharp_envelope test_second_moment_bounds test_independent_m2_locus

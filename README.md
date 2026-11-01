@@ -92,3 +92,10 @@ The model assumes positive axisymmetric angular measures, propagation along the 
 Weyl disks, Hausdorff positivity, completion ambiguity, moment-only zero-mode diagnostics, beam growth formulas and generic disk mixtures are established tools. The candidate contribution is the specialized exact diagnostic and the sharp constrained extrema with their attaining completions. The [priority record](full-band-priority-update.md) distinguishes those claims from direct predecessors. Bounded searches and model-agent reviews do not establish priority or external human validation.
 
 [EXTERNAL_REVIEW_BRIEF.md](EXTERNAL_REVIEW_BRIEF.md) provides focused priority/usefulness questions. No expert correspondence or paper submission has occurred. The code and data are released under the [MIT license](LICENSE).
+
+
+## Nonaxial scope check
+
+An [exact eight-angle example](nonaxial-isotropic-audit.md) has positive species with identical density, zero vector flux and second tensor I/3, yet grows at rate1/3 while azimuthal averaging makes their signed angular distributions identical. This illustrates why projecting a nonaxial background can erase instability. It does not violate the published axial envelope or establish its extension to3D. Symmetry-breaking flavor instabilities are established prior physics.
+
+Run `python3 -B -O nonaxial-exploration/exact_projection_counterexample.py` for the exact original-equation check. A separate retained13,500-case rotated-tetrahedron exploration found no axial-bound violation; absence of a counterexample is inconclusive. See the audit and `nonaxial-exploration/PLAN.md` for limits and the weaker general growth bound.

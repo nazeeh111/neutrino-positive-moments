@@ -1,0 +1,9 @@
+# Removing axial symmetry: bounded falsifier
+
+The published equal-M2 envelope assumes axial symmetry. Test its applicability boundary by replacing each species with a rotated equal-weight regular tetrahedron on the unit sphere. Every such measure has mass1,zero vector flux and second tensorI/3. Rotations use integer quaternion coefficients; their exact rotation matrices are rational, so the moment constraints hold algebraically even though the executable evaluates them in floating point.
+
+This is an exploratory family, not all positive spherical moment completions. Retain300 seeded pairs and45 logarithmic reducedk values from.001to8. The initial run found no violation; its source/result are preserved. The follow-up below keeps that same family and grid and adds moment and original-polarization residual checks. It is verification of the observed scan, not a new benchmark or a changed success criterion.
+
+For directions v_i and signed massesg_i, evaluate A_ij=k*v_i,z*delta_ij−(1−v_i·v_j)g_j. For a growing eigenvalue, independently form Pi=diag(1,−1,−1,−1)+sum_i g_i V_i V_i^T/(omega−k*v_i,z), V_i=(1,v_i). A small normalized singular value corroborates the original dispersion equation. Numerical eigenvalues alone do not certify a counterexample. A potential excess of the axial cap requires exact/interval verification before changing any theorem or claim.
+
+No observed excess is inconclusive. No full3D extension, realistic transport performance, novelty or practical impact follows. The known local collisionless fast model, real reduced frequencies/wave numbers and pointwise heavy-flavor cancellation remain in force. The independent audit must check the sign/normalization and distinguish safe general bounds from the stronger unproved axial extension. The published paper and verified release remain the accepted checkpoint.
