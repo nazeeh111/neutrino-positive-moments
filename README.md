@@ -32,7 +32,7 @@ Each point in this figure optimizes over a potentially different angular complet
 | `moments.py`, `geometry.py` | Exact four-disk compatibility with supplied mass and flux. The shared module also imports the numerical comparison dependencies. |
 | `second_moment_bounds.py` | Sharp all-wave-number growth caps and positive attainers with separate second moments, including essential stable corners. |
 | `independent_verifier.py`, `independent_m2_verifier.py` | Separate exact proof checkers that import no production geometry or optimizer. |
-| `nonaxial-exploration/general_moment_certificate.py` | Sufficient 3D frequency exclusion for general species masses, vector fluxes and second tensors. Exact parameterized frequencies; unresolved is not a compatibility decision. Primary feasibility stage. |
+| `nonaxial-exploration/general_frequency_certificate.py`, `verify_general_frequency.py` | Sufficient 3D exclusion from general species moments at arbitrary rational frequency points, with a standalone verifier. Unresolved is not a compatibility decision. |
 
 For a supplied-M2 example:
 
@@ -67,6 +67,13 @@ The [exact information-limit consequence](usefulness-assessment/nonaxial-informa
 
 A [general-moment feasibility extension](nonaxial-exploration/general-moment-certificate.md) retains the signed density/current terms and gives a sufficient positive-matrix exclusion test for unequal masses and nonparallel fluxes. Its frozen synthetic fixture is excluded below the species-block operator-norm bound. Forty exact original-matrix checks, an actual growing mode and a singular-denominator control pass. This is not a complete compatibility classifier, practical-use pass or independent review. Run `python3 -B -O nonaxial-exploration/check_general_moment_certificate.py` to reproduce it.
 
+The [rational-frequency interface](nonaxial-exploration/general-frequency-interface.md) removes the helper's special frequency parameterization. It uses exact rational root enclosures and returns a compact certificate bound to the input. A separately implemented standard-library verifier reconstructs the matrix and checks positive pivots; it does not trust proposed matrix values. Both implementations are by the same primary agent, so independent scientific review remains outstanding. Measurement/root uncertainty boxes are not supported.
+
+```sh
+python3 -B -O nonaxial-exploration/general_frequency_certificate.py examples/nonaxial-general-frequency-input.json
+python3 -B -O nonaxial-exploration/verify_general_frequency.py examples/nonaxial-general-frequency-input.json examples/nonaxial-general-frequency-result.json
+```
+
 ## Reproduce
 
 Check the delivered bytes before regenerating outputs:
@@ -100,7 +107,7 @@ The build retains the last successful PDF until its replacement compiles and ren
 
 ## Scope and prior work
 
-The main diagnostic and current paper assume positive axisymmetric angular measures and propagation along the symmetry axis. The newer, separately labeled nonaxial bound removes those symmetry assumptions only for common isotropic full moments. All use local collisionless fast evolution and explicit pointwise heavy-flavor cancellation; moments are number weighted. Atomic extrema do not establish exact attainment under smoothness or occupation constraints. No physical ultraviolet cutoff, complete arbitrary-moment three-dimensional classifier, universal-instability classifier, nonlinear-conversion prediction or actual supernova/merger validation is claimed.
+The exact compatibility diagnostic and axial portions of the paper assume positive axisymmetric angular measures and propagation along the symmetry axis. The separate general3D method supplies sufficient exclusions only. The newer, separately labeled nonaxial bound removes those symmetry assumptions only for common isotropic full moments. All use local collisionless fast evolution and explicit pointwise heavy-flavor cancellation; moments are number weighted. Atomic extrema do not establish exact attainment under smoothness or occupation constraints. No physical ultraviolet cutoff, complete arbitrary-moment three-dimensional classifier, universal-instability classifier, nonlinear-conversion prediction or actual supernova/merger validation is claimed.
 
 Weyl disks, Hausdorff positivity, completion ambiguity, moment-only zero-mode diagnostics, beam growth formulas and generic disk mixtures are established tools. The candidate contribution is the specialized exact diagnostic and the sharp constrained extrema with their attaining completions. The [priority record](full-band-priority-update.md) distinguishes those claims from direct predecessors. Bounded searches and model-agent reviews do not establish priority or external human validation.
 

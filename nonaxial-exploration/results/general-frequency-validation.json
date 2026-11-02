@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "sqrt_enclosure_cases": 578,
+  "exact_parameter_crosschecks": 18,
+  "arbitrary_frequency_cases": 18,
+  "statuses_not_an_accuracy_benchmark": {
+    "excluded": 13,
+    "unresolved": 5
+  },
+  "forged_or_wrong_input_certificates_rejected": 8,
+  "invalid_input_cases": 5,
+  "actual_growing_root_controls": 2,
+  "singular_reduction_control": true,
+  "zero_k_controls": true,
+  "common_scale_cases": 3,
+  "tiny_root_refinement_bits": [
+    32,
+    64,
+    128
+  ],
+  "isolated_stdlib_verifier_passed": true,
+  "source_sha256": "44fa5ff6c425be156e966f7705c0c32844c958a6bbac97606b61fa1a38db1b71",
+  "proposer_sha256": "c414fe696f66792d58bb18290b168f8f0fb95bada720ef67df9c8685156cdc55",
+  "verifier_sha256": "c2c351c6120cdbb796d4672bf6eea16406131d8b3c28fcd07e05f06addd928ba",
+  "scope": "Separate implementation by the primary agent; not independent scientific review or a physical-use pass"
+}

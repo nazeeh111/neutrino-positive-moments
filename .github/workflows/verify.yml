@@ -38,6 +38,10 @@ jobs:
         run: python3 -B -O usefulness-assessment/exact_growth_range.py
       - name: Check the general 3D moment exclusion certificate
         run: python3 -B -O nonaxial-exploration/check_general_moment_certificate.py
+      - name: Check rational-frequency certificates and standalone verification
+        run: |
+          python3 -B -O nonaxial-exploration/test_general_frequency_certificate.py
+          python3 -B -O nonaxial-exploration/verify_general_frequency.py examples/nonaxial-general-frequency-input.json examples/nonaxial-general-frequency-result.json
       - name: Check the strongest-cap isotropic comparison
         run: python3 -B -O usefulness-assessment/compare_bounds.py
       - name: Check conditional scalar-closure equivalence

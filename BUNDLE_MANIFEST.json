@@ -7,8 +7,8 @@
       "bytes": 13
     },
     ".github/workflows/verify.yml": {
-      "sha256": "d599f130325f8b1f1fe15a493bf0b316248292c8a4804897a755d7ec2d2cf53d",
-      "bytes": 2415
+      "sha256": "99cb89af30dfb1a52eaed868096870d1fefb25b4070cbda5a73eb5dea5ba287c",
+      "bytes": 2761
     },
     ".gitignore": {
       "sha256": "5f0ebe68453360e278dfef71bf41e6abb9fa7eb0b8a94f95bb2165c6676500a2",
@@ -19,12 +19,12 @@
       "bytes": 1781
     },
     "CLAIMS.json": {
-      "sha256": "dfc527ca66da0b4a5a5887e047b31a93e75d8b9ea012ca4c18e1a8d2ea571b78",
-      "bytes": 8539
+      "sha256": "5d6d18b7fed54ef7bf1d6ea45d6121fc0503e63efc13f9ef6aae411fec1e644b",
+      "bytes": 9607
     },
     "EXTERNAL_REVIEW_BRIEF.md": {
-      "sha256": "530b55772fa49de3a8e31145214e2decbd1be015d7843d17960e11b73b263107",
-      "bytes": 7413
+      "sha256": "18f95fb52ee0e5f85413a1f9f9f8c2cea22bb128eb516ef275853b68466b8533",
+      "bytes": 7500
     },
     "FINITE_K_TRANSITION_PLAN.md": {
       "sha256": "0e6d5fb70967e67adb80e0fb2045cc5f7e1ebc6f8faa573afcc8975de8701256",
@@ -39,8 +39,8 @@
       "bytes": 5097
     },
     "NEXT_RESEARCH.md": {
-      "sha256": "6aa4cfeb8381587971c0893538725a5a67baad6410b24f01f8db2d4b6c409e68",
-      "bytes": 10743
+      "sha256": "bae7ac2febc277a448aa4c6b478c15f014c6a9f62b6f355b569c7ef91a1f380c",
+      "bytes": 11640
     },
     "NOVELTY.md": {
       "sha256": "4b8e963c9d9a567c151b98538701d5a052dd0c17fdc5bcb24713c16927aec35c",
@@ -59,8 +59,8 @@
       "bytes": 5942
     },
     "README.md": {
-      "sha256": "20560170283c68b2060d7419cd97903c785c7bc9f28cd401c24f2393543c99b1",
-      "bytes": 14869
+      "sha256": "b961fae60fc030006dabc43a040e77abacc2f18af714f8c25b26e7994bdbf03f",
+      "bytes": 15792
     },
     "SMOOTH_VALIDATION_PLAN.md": {
       "sha256": "4bf1affc30bdb94d9833ddfa8ce3cea441a441b0f23992084f11b224a42fb34d",
@@ -105,6 +105,14 @@
     "examples/m2-counterflux-proof.json": {
       "sha256": "36401c9c4655fc3202fa6dfb0e07d5aac5d8150af501fbe988985f1e40f4cc1e",
       "bytes": 445
+    },
+    "examples/nonaxial-general-frequency-input.json": {
+      "sha256": "9f2d53ed5b95325c2b4156df559c596faff673439aa0f2f16f4ded8e24435de8",
+      "bytes": 609
+    },
+    "examples/nonaxial-general-frequency-result.json": {
+      "sha256": "0b047ed6e5a0bf6c0ae322fabe89a47680a43812d7838d690871ed07b6006569",
+      "bytes": 386
     },
     "finite-k-cap-checks.py": {
       "sha256": "d030422a6beb95303f7c01f9769fcccb4d9cbb384ae9f2bff3c4b1e2e9b7738b",
@@ -262,9 +270,17 @@
       "sha256": "9fd3393ea3cf504730f5aa583d9d2bbaf0ac13a9e92a2183eef53ffefc6a2173",
       "bytes": 7824
     },
+    "nonaxial-exploration/general-frequency-interface.md": {
+      "sha256": "8752d9393e149aef62f8aca4d99e99b366d0107098edf223efe44dc7c2a03fe5",
+      "bytes": 5569
+    },
     "nonaxial-exploration/general-moment-certificate.md": {
-      "sha256": "17c7b71ffa71c2b3fc3870306704693c71010dfb624cea7e15a573f0bc2cbc87",
-      "bytes": 6669
+      "sha256": "ec465c9a400bb37fe4a02b15387a6260359ef068d01589f46513cb8f22831438",
+      "bytes": 6983
+    },
+    "nonaxial-exploration/general_frequency_certificate.py": {
+      "sha256": "c414fe696f66792d58bb18290b168f8f0fb95bada720ef67df9c8685156cdc55",
+      "bytes": 7984
     },
     "nonaxial-exploration/general_moment_certificate.py": {
       "sha256": "779d1ca2b0a57368e8a1246d3070726f25501405533b6a9325b44cac586a3074",
@@ -289,6 +305,10 @@
     "nonaxial-exploration/results/full-frequency-certificate.json": {
       "sha256": "d80cc744f3562da2766cd4034c4ca8d1dd421b2d60b60852b6d3743bd0d35f66",
       "bytes": 729
+    },
+    "nonaxial-exploration/results/general-frequency-validation.json": {
+      "sha256": "30e86cf039d01a424c4b2f6ac272617e645f4935fe778256609a3def672e8134",
+      "bytes": 907
     },
     "nonaxial-exploration/results/general-moment-certificate.json": {
       "sha256": "d2bdf07a4e3c1e0dec77dc4d8c33864fca71645959f896ad2222046466fa8482",
@@ -321,6 +341,14 @@
     "nonaxial-exploration/tangent_probe.py": {
       "sha256": "99fb08fe3f45562e39568130b1277b347c11275c68691ddedf0bcdbc8d1a212e",
       "bytes": 2559
+    },
+    "nonaxial-exploration/test_general_frequency_certificate.py": {
+      "sha256": "44fa5ff6c425be156e966f7705c0c32844c958a6bbac97606b61fa1a38db1b71",
+      "bytes": 9498
+    },
+    "nonaxial-exploration/verify_general_frequency.py": {
+      "sha256": "c2c351c6120cdbb796d4672bf6eea16406131d8b3c28fcd07e05f06addd928ba",
+      "bytes": 8447
     },
     "nonaxial-isotropic-audit.md": {
       "sha256": "fc2465d2a67c9654b24a76101f2af7efc43d6483da38be459a321a7a37e080b1",

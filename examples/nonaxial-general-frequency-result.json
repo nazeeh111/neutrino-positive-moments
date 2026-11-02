@@ -1,0 +1,18 @@
+{
+  "status": "excluded",
+  "attempt_bits": [
+    32
+  ],
+  "certificate": {
+    "kind": "general-3d-rational-point-v1",
+    "input_sha256": "6aac5f83edc82a241f5034d65921c6cacb02c2b5f6e788052c35a44108d5d299",
+    "s_bounds": [
+      "4467730257/4294967296",
+      "2233865129/2147483648"
+    ],
+    "p_bounds": [
+      "1095111119/1073741824",
+      "4380444477/4294967296"
+    ]
+  }
+}

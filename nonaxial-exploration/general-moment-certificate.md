@@ -2,6 +2,8 @@
 
 Primary derivation and feasibility checks, not independent review. This extends the pointwise matrix certificate's input scope; it does not establish priority, practical astrophysical utility or a general exact compatibility decision.
 
+The later [rational-frequency interface](general-frequency-interface.md) accepts arbitrary rational frequency points and supplies a standalone verifier. The original parameterized helper below remains a regression reference. Neither interface supports measurement-error boxes or establishes a practical-use pass.
+
 ## Inputs and conclusion
 
 Each positive measure on the unit sphere supplies its mass N_s, vector flux f_s and full second tensor Q_s. Densities and fluxes may differ and need not be collinear. Work in the local collisionless fast model, with number-weighted moments and the repository's explicit heavy-flavor cancellation assumption. Frequencies and k are reduced quantities; known real matter/current shifts must be treated consistently.

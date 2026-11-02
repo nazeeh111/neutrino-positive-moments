@@ -166,5 +166,19 @@
       "nonaxial-exploration/results/general-moment-certificate.json"
     ],
     "scope": "k>0 along chosenz; rational a,b,h,t frequency parameterization; Delta0 unresolved; exact frozen exclusion below species-block norm,40original-matrix cases and actual-root controls; no general float/interval input or speed result"
+  },
+  "general_nonaxial_rational_frequency_interface": {
+    "claim": "Sufficient general3D moment exclusions at arbitrary rational frequency points with certified square-root enclosures and standalone verification",
+    "status": "Implemented and primary checked; not independent scientific review, complete compatibility, priority or physical-use evidence",
+    "evidence": [
+      "nonaxial-exploration/general-frequency-interface.md",
+      "nonaxial-exploration/general_frequency_certificate.py",
+      "nonaxial-exploration/verify_general_frequency.py",
+      "nonaxial-exploration/test_general_frequency_certificate.py",
+      "nonaxial-exploration/results/general-frequency-validation.json",
+      "examples/nonaxial-general-frequency-input.json",
+      "examples/nonaxial-general-frequency-result.json"
+    ],
+    "scope": "Exact rational N,F,Q,wr,gamma,k>=0 in k-aligned frame; positive gamma; excluded or unresolved; Delta0 unresolved; k0 exact determinant; no measurement/root boxes, general real algebraic input, speed result or astrophysical advantage"
   }
 }
