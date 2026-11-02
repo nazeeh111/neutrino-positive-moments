@@ -32,5 +32,7 @@ jobs:
         run: python3 -B -O usefulness-assessment/compare_bounds.py
       - name: Check conditional scalar-closure equivalence
         run: python3 -B -O usefulness-assessment/closure_equivalence.py
+      - name: Check the restricted reconstruction covariance example
+        run: python3 -B -O usefulness-assessment/reconstruction_covariance.py
       - name: Check exact moment algebra
         run: python3 -B -O -m unittest -v test_independent_verifier test_sharp_envelope test_second_moment_bounds test_independent_m2_locus

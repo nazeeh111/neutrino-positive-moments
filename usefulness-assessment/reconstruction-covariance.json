@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "source_sha256": "77be7895682246af5ebeae2656e8047419d466eabd02d0da3402ddd9f4b2f548",
+  "scope": "Exact positive-real increasing line branch only; not a FLASH execution or full PDE convergence test",
+  "independent_review": "unavailable; reviewer returned a usage-limit error",
+  "face_defect": [
+    [
+      "1/200",
+      "3/200"
+    ],
+    [
+      "3/200",
+      "-1/200"
+    ]
+  ],
+  "frobenius_squared": "1/2000",
+  "purity_change": "29/2000",
+  "smooth_grid_checks": [
+    {
+      "h": "1/4",
+      "frobenius_squared": "9/2560000"
+    },
+    {
+      "h": "1/8",
+      "frobenius_squared": "9/40960000"
+    },
+    {
+      "h": "1/16",
+      "frobenius_squared": "9/655360000"
+    },
+    {
+      "h": "1/32",
+      "frobenius_squared": "9/10485760000"
+    },
+    {
+      "h": "1/64",
+      "frobenius_squared": "9/167772160000"
+    },
+    {
+      "h": "1/128",
+      "frobenius_squared": "9/2684354560000"
+    }
+  ],
+  "conclusion": "Finite-stencil basis dependence; smooth example defect is O(h^2); no new algorithm or physical-impact claim"
+}

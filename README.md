@@ -54,6 +54,8 @@ Additional sharp results cover fixed wave number with equal masses and zero flux
 
 Raw data, plans, reviews and failed initial runs are retained. The first screen's type-conversion failure and the continuous comparison's conditioning correction are disclosed. Four development smoke points overlapped the planned screen; the records were not externally timestamp-registered. No results are relabeled as held-out astrophysical data.
 
+A separate [reconstruction audit](reconstruction-covariance-audit.md) gives an exact positive-density example of finite-resolution flavor-basis dependence in a published line-interpolation rule. Its smooth-profile defect shrinks quadratically. Established vector/convex limiting already addresses the general mechanism, so this is a scoped diagnostic, not a new algorithm or a demonstrated source of astrophysical error. Independent review of this follow-up was unavailable.
+
 ## Reproduce
 
 Check the delivered bytes before regenerating outputs:
