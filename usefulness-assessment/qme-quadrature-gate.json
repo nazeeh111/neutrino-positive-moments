@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "exact_similarity_cases": 96,
+  "cases_with_nonzero_eta": 96,
+  "common_component_checks": 96,
+  "negative_source_weight_control": true,
+  "original_growing_root_exact_zero": true,
+  "root_input": {
+    "N1": "2",
+    "F1": "9/25",
+    "Q1": "18/25",
+    "N2": "2",
+    "F2": "-9/25",
+    "Q2": "18/25",
+    "wr": "0",
+    "gamma2": "10404/15625",
+    "k": "16/25",
+    "sector": "longitudinal"
+  },
+  "root_proof": {
+    "status": "possible",
+    "s1": [
+      {
+        "a": "-1234104384/4770693409",
+        "b": "0",
+        "d": "0"
+      },
+      {
+        "a": "-68925125000/42936240681",
+        "b": "0",
+        "d": "0"
+      }
+    ],
+    "s2": [
+      {
+        "a": "175009908800/1684054773377",
+        "b": "0",
+        "d": "0"
+      },
+      {
+        "a": "-68925125000/42936240681",
+        "b": "0",
+        "d": "0"
+      }
+    ],
+    "candidate": [
+      "pair",
+      0,
+      1,
+      1
+    ],
+    "proof_kind": "degree4_hausdorff"
+  },
+  "scope": "Conditional longitudinal quadrature obstruction; synthetic h algebra fixtures, not physical data or a utility pass; primary checked only",
+  "source_sha256": "1cb920412633019aad48eef945a2fa5fe9a082704982a003e2c9a4fa0de00edc"
+}

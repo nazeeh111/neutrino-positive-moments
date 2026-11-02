@@ -46,6 +46,8 @@ jobs:
         run: python3 -B -O usefulness-assessment/compare_bounds.py
       - name: Check conditional scalar-closure equivalence
         run: python3 -B -O usefulness-assessment/closure_equivalence.py
+      - name: Check conditional quantum maximum-entropy quadrature equivalence
+        run: python3 -B -O usefulness-assessment/qme_quadrature_gate.py
       - name: Check the restricted reconstruction covariance example
         run: python3 -B -O usefulness-assessment/reconstruction_covariance.py
       - name: Check exact moment algebra

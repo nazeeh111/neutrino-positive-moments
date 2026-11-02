@@ -47,6 +47,8 @@ Additional sharp results cover fixed wave number with equal masses and zero flux
 
 ## Evidence and negative results
 
+- A [conditional quantum maximum-entropy obstruction](usefulness-assessment/qme-quadrature-gate.md) identifies another class whose growing closure modes already admit positive moment-matching completions. Exact operator checks pass; this is a limit on possible diagnostic usefulness, not a new utility pass.
+
 - All **504** planned frequency decisions and **90** designed boundary/scaling cases have independent exact checks. The screen includes 72 possible and 432 impossible decisions.
 - A strong continuous Clarabel comparison covers **722** cases. Exact geometry certifies all 722; the conic route certifies 682 and leaves 40 designed stress cases unresolved, with no certified disagreement. Including proof checking, the conic route is typically faster. **No general end-to-end speed advantage is demonstrated.**
 - The complete finite-band extension has 1,000 exact disk identities, **276 original-factor atomic attainers**, 36 exact transition cases and 150 enclosure/scaling cases. A separate geometric implementation checks **19,800** rational cases. These finite checks corroborate the written universal proof; they do not replace it.

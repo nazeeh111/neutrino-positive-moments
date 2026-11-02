@@ -7,8 +7,8 @@
       "bytes": 13
     },
     ".github/workflows/verify.yml": {
-      "sha256": "99cb89af30dfb1a52eaed868096870d1fefb25b4070cbda5a73eb5dea5ba287c",
-      "bytes": 2761
+      "sha256": "6e88f312dd78fd6d52a5a7dcf6f735b1cbb581f52457e55a1995af1c3add6c40",
+      "bytes": 2912
     },
     ".gitignore": {
       "sha256": "5f0ebe68453360e278dfef71bf41e6abb9fa7eb0b8a94f95bb2165c6676500a2",
@@ -19,8 +19,8 @@
       "bytes": 1781
     },
     "CLAIMS.json": {
-      "sha256": "5d6d18b7fed54ef7bf1d6ea45d6121fc0503e63efc13f9ef6aae411fec1e644b",
-      "bytes": 9607
+      "sha256": "fa0d944f039cc5e09a07e5f815d032552d5e0dda69fb4729e96690655076ca89",
+      "bytes": 10204
     },
     "EXTERNAL_REVIEW_BRIEF.md": {
       "sha256": "18f95fb52ee0e5f85413a1f9f9f8c2cea22bb128eb516ef275853b68466b8533",
@@ -39,12 +39,12 @@
       "bytes": 5097
     },
     "NEXT_RESEARCH.md": {
-      "sha256": "bae7ac2febc277a448aa4c6b478c15f014c6a9f62b6f355b569c7ef91a1f380c",
-      "bytes": 11640
+      "sha256": "708af889556fc5ce7591be5876c1b4e4a0cce7d23ad4df291d12eb360105dbce",
+      "bytes": 12519
     },
     "NOVELTY.md": {
-      "sha256": "4b8e963c9d9a567c151b98538701d5a052dd0c17fdc5bcb24713c16927aec35c",
-      "bytes": 8861
+      "sha256": "07f60a30b3123060fcc47ed5633ad019de989b0e9cacb3c5fc248eeb5a094c94",
+      "bytes": 9323
     },
     "PHYSICAL_SCOPE.md": {
       "sha256": "fbc72a09f3c330b31c7250f142e4f2fc39b293fc8fe8741982463fc1b0901bf0",
@@ -59,8 +59,8 @@
       "bytes": 5942
     },
     "README.md": {
-      "sha256": "b961fae60fc030006dabc43a040e77abacc2f18af714f8c25b26e7994bdbf03f",
-      "bytes": 15792
+      "sha256": "bc1fd57e1bae452fc8e94545a116fc942e4d0397455b1b48879ad6146a2ffb09",
+      "bytes": 16101
     },
     "SMOOTH_VALIDATION_PLAN.md": {
       "sha256": "4bf1affc30bdb94d9833ddfa8ce3cea441a441b0f23992084f11b224a42fb34d",
@@ -801,6 +801,18 @@
     "usefulness-assessment/nonaxial-information-limit.md": {
       "sha256": "d83dad3e023b812f6cb444635fa567512bf726a88f460d174695f625fd3e5ae0",
       "bytes": 6206
+    },
+    "usefulness-assessment/qme-quadrature-gate.json": {
+      "sha256": "bf2183f28df605c3c7698635961793676b6d539cc773fd9dc7b98574d1487eee",
+      "bytes": 1222
+    },
+    "usefulness-assessment/qme-quadrature-gate.md": {
+      "sha256": "feecf5d9f4938ff2d231614e02dc22690d6adf750c705cf8dc8e580f5d4c1281",
+      "bytes": 7570
+    },
+    "usefulness-assessment/qme_quadrature_gate.py": {
+      "sha256": "1cb920412633019aad48eef945a2fa5fe9a082704982a003e2c9a4fa0de00edc",
+      "bytes": 5443
     },
     "usefulness-assessment/reconstruction-covariance.json": {
       "sha256": "1a530ae433c849d88c85c05a0f338bd74b426205d4c94ecbd923e7ba7a54ed3f",

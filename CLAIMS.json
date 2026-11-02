@@ -180,5 +180,14 @@
       "examples/nonaxial-general-frequency-result.json"
     ],
     "scope": "Exact rational N,F,Q,wr,gamma,k>=0 in k-aligned frame; positive gamma; excluded or unresolved; Delta0 unresolved; k0 exact determinant; no measurement/root boxes, general real algebraic input, speed result or astrophysical advantage"
+  },
+  "conditional_qme_quadrature_obstruction": {
+    "status": "primary proof and exact checks; independent review pending",
+    "evidence": [
+      "usefulness-assessment/qme-quadrature-gate.md",
+      "usefulness-assessment/qme_quadrature_gate.py",
+      "usefulness-assessment/qme-quadrature-gate.json"
+    ],
+    "scope": "Longitudinal small-coherence closure; ordered exponential flavor differences and common heavy background give positive electron completions. Classical quadrature, not a new algorithm. Does not classify the published merger snapshot or change the failed utility gate."
   }
 }

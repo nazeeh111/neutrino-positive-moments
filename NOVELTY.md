@@ -48,3 +48,6 @@ See full-band-priority-update.md for the newly explicit Dasgupta/Mirizzi/Sen2018
 ## Focused priority and usefulness attack
 
 See priority-red-team.md and utility-red-team.md. The complete equal-M2 envelope remains a plausible specialized theorem contribution; genuine priority is not established. The generic classifier closely specializes classical Weyl and generalized-moment optimization. Operational astrophysical usefulness and high-impact numerical advantage are not demonstrated. The corrected strongest-cap isotropic comparison limits tightening to5.7191%, and moment-preserving positive quadratures cannot have their exact roots rejected by this existential diagnostic. These are material limits, not new successful utility gates.
+
+
+The quantum maximum-entropy follow-up uses classical Gaussian quadrature and positive moment matrices to prove a conditional closure-equivalence obstruction. These are not claimed as a new algorithm or general hyperbolicity theorem. The resulting limit on an exclusion benchmark is primary checked, with its exact scope in usefulness-assessment/qme-quadrature-gate.md; it adds no evidence of operational advantage or priority of the sharp constrained extrema.
