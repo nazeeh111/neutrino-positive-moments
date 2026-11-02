@@ -2,6 +2,10 @@
   "format": "sha256-file-manifest-v1",
   "scope": "Public research source,proofs,canonical data,plans,reviews,failure logs,current editable paper and preserved prior drafts. Private task continuation,environments,caches,preview PNGs,partial screen and git metadata excluded. Manifest excludes itself.",
   "files": {
+    ".gitattributes": {
+      "sha256": "547f59603028195ff9f8a87d04c4651551e8bd0d68f075257dfd549cd846b25b",
+      "bytes": 13
+    },
     ".github/workflows/verify.yml": {
       "sha256": "ee11bc4fe1591a9ad35a946647e36ba76e2e61e911de5f8e94f2b7e1386069df",
       "bytes": 2130
