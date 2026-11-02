@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "source_sha256": "3cb5596accb4625c630fce2cabee9f0e585f153dc5497be5d2a3304616f5c12f",
+  "polynomial_identities_modulo_parameter_constraints": 5,
+  "full_matrix_identity_cases": 180,
+  "nonzero_real_frequency_cases": 144,
+  "strict_positive_cases_above_cap": 60,
+  "point_psd_checks": 1800,
+  "oscillating_attainer": {
+    "k": "4",
+    "real_frequency": "2/3",
+    "growth": "2/3",
+    "full_polarization_null_vector_exact": true
+  },
+  "statement": "Sharp gamma<=2N/3 for all real frequency parts and wave vectors, independent positive species with common isotropic full moments",
+  "limits": "Primary checked, no independent review or priority claim; not the nonaxial fixed-k envelope or a utility pass"
+}

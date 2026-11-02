@@ -133,5 +133,15 @@
       "An existential diagnostic cannot reject an exact mode of an admissible moment-preserving positive quadrature",
       "No newly specified provenance-supported operational experiment passed; original utility and speed results unchanged"
     ]
+  },
+  "nonaxial_isotropic_all_frequency_cap": {
+    "claim": "Sharp gamma<=2N/3 for common massN, zero vector flux and full second tensorNI/3, arbitrary positive sphere measures, every real frequency part and wave vector",
+    "status": "Primary proof and exact checks; independent review, priority and usefulness unestablished",
+    "evidence": [
+      "nonaxial-exploration/full-frequency-bound.md",
+      "nonaxial-exploration/exact_nonaxial_full_bound.py",
+      "nonaxial-exploration/results/full-frequency-certificate.json"
+    ],
+    "scope": "Local collisionless fast model; independent species; not the fixed-k nonaxial envelope, arbitrary unequal moments, nonlinear prediction or practical superiority; outside unchanged paper"
   }
 }

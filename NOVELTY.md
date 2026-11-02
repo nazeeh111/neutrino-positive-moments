@@ -1,6 +1,12 @@
 # Evidence-backed novelty assessment
 
-2026-11-01. Assessment is provisional, not a priority guarantee or external peer review. Independent reviewers were fresh-context model agents.
+Assessment is provisional, not a priority guarantee or external peer review. The earlier independent reviewers were fresh-context model agents. The November 2 nonaxial extension below has not received independent review.
+
+## November 2 full nonaxial extension
+
+`nonaxial-exploration/full-frequency-bound.md` proves the sharp all-k cap2N/3 for common massN, zero vector flux and full second tensorNI/3, now for arbitrary sphere measures and every real frequency part. Its matrix outer-product certificate and oscillating attainer extend the prior axial theorem's scope. Exact algebra supports the derivation; independent review has not run because of the recorded usage-limit failure. This is a candidate theorem contribution, not an established novel algorithm or physical-use result.
+
+A targeted follow-up search used combinations of fast-flavor growth bounds, isotropic moments, three-dimensional maximum growth, and positive-semidefinite certificates. The returned primary material included [Richers et al. on three-dimensional instability](https://arxiv.org/abs/2109.08631), [Johns and Nagakura on limited moment information](https://arxiv.org/abs/2104.04106), and [quantum closure positivity constraints](https://doi.org/10.1103/PhysRevD.111.063046). This screening did not identify the same universal isotropic extremum, but it was not an exhaustive theorem-level review of all those papers or their descendants. The generic tools of positive matrix certificates and angular moment constraints are established. Scientific priority and practical utility remain unconfirmed; prior independent assessments do not automatically validate this later extension.
 
 ## Direct precedents
 

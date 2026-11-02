@@ -60,6 +60,8 @@ A [nonaxial first-variation audit](nonaxial-exploration/tangent-audit.md) proves
 
 A subsequent [finite-amplitude nonaxial certificate](nonaxial-exploration/imaginary-axis-bound.md) proves the sharp cap `gamma <= 2N/3` for **purely imaginary frequencies** and common isotropic full moments. It allows arbitrary three-dimensional positive measures and independently chosen species. The proof retains mixed polarization entries and constructs a pointwise positive matrix. Four exact polynomial identities and 96 full-matrix checks support the derivation. This primary-checked extension awaits independent review and does not bound modes with nonzero real frequency. It is outside the unchanged research draft.
 
+The newer [full-frequency nonaxial proof](nonaxial-exploration/full-frequency-bound.md) closes that real-frequency restriction for the **all-wave-number isotropic cap**: `gamma <= 2N/3`, with arbitrary three-dimensional angular measures and independent species. It uses separate positive matrix certificates for the two species and an exact outer-product factorization. The checker verifies five polynomial identities, 180 full-matrix cases and an exact oscillating attainer. This extension remains primary-checked and awaits independent review and priority assessment; it is outside the unchanged paper and does not establish the nonaxial fixed-k envelope.
+
 ## Reproduce
 
 Check the delivered bytes before regenerating outputs:
@@ -93,7 +95,7 @@ The build retains the last successful PDF until its replacement compiles and ren
 
 ## Scope and prior work
 
-The model assumes positive axisymmetric angular measures, propagation along the symmetry axis, local collisionless fast evolution and explicit pointwise heavy-flavor cancellation. Moments are number weighted. Atomic extrema do not establish exact attainment under smoothness or occupation constraints. No physical ultraviolet cutoff, general three-dimensional uncertainty result, universal-instability classifier, nonlinear-conversion prediction or actual supernova/merger validation is claimed.
+The main diagnostic and current paper assume positive axisymmetric angular measures and propagation along the symmetry axis. The newer, separately labeled nonaxial bound removes those symmetry assumptions only for common isotropic full moments. All use local collisionless fast evolution and explicit pointwise heavy-flavor cancellation; moments are number weighted. Atomic extrema do not establish exact attainment under smoothness or occupation constraints. No physical ultraviolet cutoff, arbitrary-moment three-dimensional classifier, universal-instability classifier, nonlinear-conversion prediction or actual supernova/merger validation is claimed.
 
 Weyl disks, Hausdorff positivity, completion ambiguity, moment-only zero-mode diagnostics, beam growth formulas and generic disk mixtures are established tools. The candidate contribution is the specialized exact diagnostic and the sharp constrained extrema with their attaining completions. The [priority record](full-band-priority-update.md) distinguishes those claims from direct predecessors. Bounded searches and model-agent reviews do not establish priority or external human validation.
 
@@ -104,7 +106,7 @@ Weyl disks, Hausdorff positivity, completion ambiguity, moment-only zero-mode di
 
 An [exact eight-angle example](nonaxial-isotropic-audit.md) has positive species with identical density, zero vector flux and second tensor I/3, yet grows at rate1/3 while azimuthal averaging makes their signed angular distributions identical. This illustrates why projecting a nonaxial background can erase instability. It does not violate the published axial envelope or establish its extension to3D. Symmetry-breaking flavor instabilities are established prior physics.
 
-Run `python3 -B -O nonaxial-exploration/exact_projection_counterexample.py` for the exact original-equation check. A separate retained13,500-case rotated-tetrahedron exploration found no axial-bound violation; absence of a counterexample is inconclusive. See the audit and `nonaxial-exploration/PLAN.md` for limits and the weaker general growth bound.
+Run `python3 -B -O nonaxial-exploration/exact_projection_counterexample.py` for the exact original-equation check. A separate retained13,500-case rotated-tetrahedron exploration found no axial-bound violation; absence of a counterexample is inconclusive. The historical audit records the earlier safe capN. The newer full-frequency proof tightens the isotropic all-k cap to2N/3; run `python3 -B -O nonaxial-exploration/exact_nonaxial_full_bound.py`. Its independent review is still outstanding.
 
 
 ## Current novelty and usefulness assessment

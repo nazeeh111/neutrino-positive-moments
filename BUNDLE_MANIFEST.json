@@ -3,8 +3,8 @@
   "scope": "Public research source,proofs,canonical data,plans,reviews,failure logs,current editable paper and preserved prior drafts. Private task continuation,environments,caches,preview PNGs,partial screen and git metadata excluded. Manifest excludes itself.",
   "files": {
     ".github/workflows/verify.yml": {
-      "sha256": "a01a62ed3f3e264316d57794c4f9b2d0b507f6889e40d132db3c6b97728b7a2b",
-      "bytes": 1995
+      "sha256": "ee11bc4fe1591a9ad35a946647e36ba76e2e61e911de5f8e94f2b7e1386069df",
+      "bytes": 2130
     },
     ".gitignore": {
       "sha256": "5f0ebe68453360e278dfef71bf41e6abb9fa7eb0b8a94f95bb2165c6676500a2",
@@ -15,8 +15,8 @@
       "bytes": 1781
     },
     "CLAIMS.json": {
-      "sha256": "c30ce4eaa464ae96c1f4ab25ffcee3a0454e50f7362e09e71986007cdb45cbda",
-      "bytes": 6032
+      "sha256": "815774b84f38f83f11a3f69614e7688adff5be51f228ee2b1fcff2d0cdd2f7c0",
+      "bytes": 6771
     },
     "EXTERNAL_REVIEW_BRIEF.md": {
       "sha256": "2699a520e14ce6e8a77ccb30234598d0597e875561842da54f9794865a1a66be",
@@ -35,12 +35,12 @@
       "bytes": 5097
     },
     "NEXT_RESEARCH.md": {
-      "sha256": "5b0522afaa07da550907cafb16cc38ae71286d4e449fd5b1546265849dad4f85",
-      "bytes": 8169
+      "sha256": "9331ebf49c793aa31128b353652a7452d63d68a2733be9cdfbf8be38f77954ca",
+      "bytes": 9010
     },
     "NOVELTY.md": {
-      "sha256": "7abe8bde1ec80b2275700f2712cc870e0b99b1d5057eff601ce29a4eea037ba8",
-      "bytes": 7344
+      "sha256": "4b8e963c9d9a567c151b98538701d5a052dd0c17fdc5bcb24713c16927aec35c",
+      "bytes": 8861
     },
     "PHYSICAL_SCOPE.md": {
       "sha256": "fbc72a09f3c330b31c7250f142e4f2fc39b293fc8fe8741982463fc1b0901bf0",
@@ -55,8 +55,8 @@
       "bytes": 5942
     },
     "README.md": {
-      "sha256": "9b1df3392d1466e8e39a60f2df4f6134c99db7d97741a2dce45f0e6faf1367c4",
-      "bytes": 12418
+      "sha256": "032aa2e38c83d9a6b22c175731e63d227b73f91a4b5d1762b5ec3468215013a5",
+      "bytes": 13379
     },
     "SMOOTH_VALIDATION_PLAN.md": {
       "sha256": "4bf1affc30bdb94d9833ddfa8ce3cea441a441b0f23992084f11b224a42fb34d",
@@ -230,6 +230,10 @@
       "sha256": "4d555778f8a44b26f311d78c5aaa8ecf507aa182d7cb7ff3bbefa957c4a68ff6",
       "bytes": 1898
     },
+    "nonaxial-exploration/exact_nonaxial_full_bound.py": {
+      "sha256": "3cb5596accb4625c630fce2cabee9f0e585f153dc5497be5d2a3304616f5c12f",
+      "bytes": 8390
+    },
     "nonaxial-exploration/exact_nonaxial_imaginary_bound.py": {
       "sha256": "24c635baf8d0922bb0d20406ad9f7d88735e82ffd516b77d083acf2fc12f4007",
       "bytes": 6934
@@ -241,6 +245,10 @@
     "nonaxial-exploration/exact_tangent_certificate.py": {
       "sha256": "a0dd27b0eba852f5b6a94fe8882d4042f95c555cd84270ecdc6f206fc22b8ebe",
       "bytes": 4928
+    },
+    "nonaxial-exploration/full-frequency-bound.md": {
+      "sha256": "c5bf75e848b090f872a25c0ff6e410da6341a59c3e4ccd0fba63cf77fd99a693",
+      "bytes": 7786
     },
     "nonaxial-exploration/imaginary-axis-bound.md": {
       "sha256": "6b065cac669df31df1e9fe56465952855f78b91d1b9bb3f94108a356c468a0f6",
@@ -257,6 +265,10 @@
     "nonaxial-exploration/results/exact-projection.json": {
       "sha256": "15efba0728da63d0add91c7e19a415acea242e70b0efc3863291e05dfe5a8ae3",
       "bytes": 1180
+    },
+    "nonaxial-exploration/results/full-frequency-certificate.json": {
+      "sha256": "d80cc744f3562da2766cd4034c4ca8d1dd421b2d60b60852b6d3743bd0d35f66",
+      "bytes": 729
     },
     "nonaxial-exploration/results/imaginary-bound-certificate.json": {
       "sha256": "b85b1e8b56360495f103da013292da3b5fecd5c74d80eae62c8afef6c9f84d54",
