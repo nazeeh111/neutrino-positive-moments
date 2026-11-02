@@ -144,5 +144,15 @@
       "paper/draft.typ"
     ],
     "scope": "Local collisionless fast model; independent species; not the fixed-k nonaxial envelope, arbitrary unequal moments, nonlinear prediction or practical superiority; included in draft Section7 with independent review still pending"
+  },
+  "nonaxial_isotropic_information_range": {
+    "claim": "At identical per-species moments (N,0,NI/3), actual all-k maximum growth spans [0,2N/3]; optimal deterministic moment-only worst-case absolute error is N/3",
+    "status": "Primary-checked corollary of the full nonaxial cap, not independently reviewed or a new practical-use pass",
+    "evidence": [
+      "usefulness-assessment/nonaxial-information-limit.md",
+      "usefulness-assessment/exact_growth_range.py",
+      "usefulness-assessment/growth-range.json"
+    ],
+    "scope": "Arbitrary positive angular measures; common-component mixture and scale argument; not fixed-k, smooth-density attainment, astrophysical accuracy or a comparison with equally informed point predictors"
   }
 }

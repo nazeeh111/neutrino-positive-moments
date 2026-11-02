@@ -2,6 +2,18 @@
 
 The research repository is public. No expert message or paper submission has been sent. This is a review brief for the verified research package. The full moonshot objective is incomplete; high impact, practical superiority and priority are not established.
 
+## Current priority: the full nonaxial theorem
+
+The November2 extension is [the sharp full-frequency nonaxial isotropic cap](nonaxial-exploration/full-frequency-bound.md), now Section7 of the13-page research draft. Independent positive sphere measures with common massN, zero vector flux and full second tensorNI/3 have maximum growth at most2N/3 over every real wave vector and every real frequency part. An exact oscillating mode attains the cap. The proof uses a full polarization reduction, separate positive matrix certificates for the species, and an outer-product identity. The exact checker is `nonaxial-exploration/exact_nonaxial_full_bound.py`.
+
+This extension has primary checks only. The earlier independent model-agent reviews do not cover it, and the requested new reviewer returned a usage-limit error. Please distinguish mathematical correctness, priority and usefulness in any assessment.
+
+The most discriminating checks are whether the upper-half-plane parameterization is complete; whether the original polarization and its reduced matrix have equivalent nullspaces; whether the reflection identity and the two species' different transverse constants are handled correctly; and whether the averaged positive-definite term excludes every claimed frequency. A simpler known operator inequality giving the same sharp2N/3 cap would materially change the novelty assessment.
+
+The [information-limit corollary](usefulness-assessment/nonaxial-information-limit.md) shows that identical supplied moments admit actual maximum growth spanning all of `[0,2N/3]`. Thus the cap does not predict the actual rate, and the optimal worst-case absolute error of a deterministic point estimate from these moments alone isN/3. Is there a concrete scientific workflow that benefits from this exact exclusion guarantee despite that limitation? No operational-use pass is claimed.
+
+The earlier axial claims and their separate reviews follow below. This updated brief is local/public documentation, not authorization to send a message. The existing exact email drafts remain unsent and unchanged.
+
 ## Candidate claim, with direct predecessors acknowledged
 
 For a local collisionless axial fast-flavor model, positive per-species angular moments define an exact frequency-compatibility question: SOME completion has the specified unstable temporal frequency, or NONE does. Classical Weyl/Hausdorff theory gives a constant-size disk diagnostic. That generic theory, the angular weight (1-u²), beam growth formulas and geometric-mean estimates are not claimed new.

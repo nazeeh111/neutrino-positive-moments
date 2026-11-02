@@ -62,6 +62,8 @@ A subsequent [finite-amplitude nonaxial certificate](nonaxial-exploration/imagin
 
 The newer [full-frequency nonaxial proof](nonaxial-exploration/full-frequency-bound.md) closes that real-frequency restriction for the **all-wave-number isotropic cap**: `gamma <= 2N/3`, with arbitrary three-dimensional angular measures and independent species. It uses separate positive matrix certificates for the two species and an exact outer-product factorization. The checker verifies five polynomial identities, 180 full-matrix cases and an exact oscillating attainer. This extension remains primary-checked and awaits independent review and priority assessment; it is now included in Section7 of the research draft and does not establish the nonaxial fixed-k envelope.
 
+The [exact information-limit consequence](usefulness-assessment/nonaxial-information-limit.md) sharpens its interpretation: the same supplied moments admit actual maximum growth rates spanning the entire interval `[0,2N/3]`. A deterministic point estimate from those moments alone therefore has optimal worst-case absolute error `N/3`. The construction is checked in the original beam operator. This is a corollary of the bound, not a new practical-use pass; a published crossing-depth proxy uses extra angular information and answers a different question.
+
 ## Reproduce
 
 Check the delivered bytes before regenerating outputs:
