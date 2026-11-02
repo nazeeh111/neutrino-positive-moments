@@ -58,6 +58,8 @@ A separate [reconstruction audit](reconstruction-covariance-audit.md) gives an e
 
 A [nonaxial first-variation audit](nonaxial-exploration/tangent-audit.md) proves that, at one sharp isotropic axial attainer, arbitrary moment-preserving mixture paths cannot increase the specified mode's growth to first order. An exact interval-wide polynomial certificate replaces the exploratory finite-node optimization. This primary-checked result does not establish a global three-dimensional envelope or control finite changes; independent review remains unavailable.
 
+A subsequent [finite-amplitude nonaxial certificate](nonaxial-exploration/imaginary-axis-bound.md) proves the sharp cap `gamma <= 2N/3` for **purely imaginary frequencies** and common isotropic full moments. It allows arbitrary three-dimensional positive measures and independently chosen species. The proof retains mixed polarization entries and constructs a pointwise positive matrix. Four exact polynomial identities and 96 full-matrix checks support the derivation. This primary-checked extension awaits independent review and does not bound modes with nonzero real frequency. It is outside the unchanged research draft.
+
 ## Reproduce
 
 Check the delivered bytes before regenerating outputs:

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_sha256": "24c635baf8d0922bb0d20406ad9f7d88735e82ffd516b77d083acf2fc12f4007",
+  "bivariate_polynomial_identities": 4,
+  "full_matrix_identity_cases": 96,
+  "strict_positive_cases_above_cap": 48,
+  "point_psd_checks": 960,
+  "sharp_attainer_replayed": true,
+  "statement": "gamma<=2N/3 for purely imaginary roots with common isotropic full moments, without axial or inversion symmetry",
+  "limits": "Not nonzero-real-frequency roots; primary checked, no independent review or priority claim"
+}
