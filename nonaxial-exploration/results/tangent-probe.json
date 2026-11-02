@@ -1,0 +1,58 @@
+{
+  "scope": "Numerical discovery only, fixed 30 nodes and inversion-paired species",
+  "nodes": 30,
+  "base_root": [
+    -1.0436440965266995e-21,
+    0.6666666666666669
+  ],
+  "spectral_separation": 0.6666666666666669,
+  "lp_success": true,
+  "moment_residual": 2.7755575615628914e-17,
+  "directional_gain": 4.6876083261951054e-17,
+  "candidate_support": [
+    {
+      "integer_direction": [
+        -2,
+        -2,
+        1
+      ],
+      "weight": 0.18750000000000003
+    },
+    {
+      "integer_direction": [
+        -2,
+        2,
+        1
+      ],
+      "weight": 0.1875
+    },
+    {
+      "integer_direction": [
+        0,
+        0,
+        -3
+      ],
+      "weight": 0.24999999999999997
+    },
+    {
+      "integer_direction": [
+        2,
+        -2,
+        1
+      ],
+      "weight": 0.1875
+    },
+    {
+      "integer_direction": [
+        2,
+        2,
+        1
+      ],
+      "weight": 0.1875
+    }
+  ],
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "source_sha256": "99fb08fe3f45562e39568130b1277b347c11275c68691ddedf0bcdbc8d1a212e",
+  "plan_sha256": "4d555778f8a44b26f311d78c5aaa8ecf507aa182d7cb7ff3bbefa957c4a68ff6"
+}

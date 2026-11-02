@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_sha256": "a0dd27b0eba852f5b6a94fe8882d4042f95c555cd84270ecdc6f206fc22b8ebe",
+  "base_frequency": "2i/3",
+  "k": "2",
+  "full_determinant_derivative": "27i/8",
+  "dual_slack": "(1-3z)^2*(1-z^2)/(2*(1+9z^2))",
+  "conclusion": "Nonpositive first growth derivative for each moment-preserving mixture path from this base, including nonaxial and independently varied species",
+  "limits": "Not a global nonaxial cap, finite-change or higher-order result; no independent review completed"
+}

@@ -56,6 +56,8 @@ Raw data, plans, reviews and failed initial runs are retained. The first screen'
 
 A separate [reconstruction audit](reconstruction-covariance-audit.md) gives an exact positive-density example of finite-resolution flavor-basis dependence in a published line-interpolation rule. Its smooth-profile defect shrinks quadratically. Established vector/convex limiting already addresses the general mechanism, so this is a scoped diagnostic, not a new algorithm or a demonstrated source of astrophysical error. Independent review of this follow-up was unavailable.
 
+A [nonaxial first-variation audit](nonaxial-exploration/tangent-audit.md) proves that, at one sharp isotropic axial attainer, arbitrary moment-preserving mixture paths cannot increase the specified mode's growth to first order. An exact interval-wide polynomial certificate replaces the exploratory finite-node optimization. This primary-checked result does not establish a global three-dimensional envelope or control finite changes; independent review remains unavailable.
+
 ## Reproduce
 
 Check the delivered bytes before regenerating outputs:
