@@ -140,8 +140,9 @@
     "evidence": [
       "nonaxial-exploration/full-frequency-bound.md",
       "nonaxial-exploration/exact_nonaxial_full_bound.py",
-      "nonaxial-exploration/results/full-frequency-certificate.json"
+      "nonaxial-exploration/results/full-frequency-certificate.json",
+      "paper/draft.typ"
     ],
-    "scope": "Local collisionless fast model; independent species; not the fixed-k nonaxial envelope, arbitrary unequal moments, nonlinear prediction or practical superiority; outside unchanged paper"
+    "scope": "Local collisionless fast model; independent species; not the fixed-k nonaxial envelope, arbitrary unequal moments, nonlinear prediction or practical superiority; included in draft Section7 with independent review still pending"
   }
 }

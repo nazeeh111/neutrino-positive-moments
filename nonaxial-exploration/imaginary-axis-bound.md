@@ -1,6 +1,6 @@
 # Sharp nonaxial cap for purely growing modes
 
-Primary derivation and exact algebraic checks. Independent review has not been completed because the reviewer returned a usage-limit error. This follow-up is not yet incorporated into the accepted paper. It establishes a restricted mathematical extension, not scientific priority or practical astrophysical value.
+Primary derivation and exact algebraic checks. Independent review has not been completed because the reviewer returned a usage-limit error. The later full-frequency extension is now included in Section7 of the research draft; this earlier imaginary-axis derivation is retained as a historical step. It establishes a restricted mathematical extension, not scientific priority or practical astrophysical value.
 
 ## Statement and limits
 

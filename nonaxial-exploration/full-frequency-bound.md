@@ -1,6 +1,6 @@
 # Sharp full-frequency nonaxial isotropic growth cap
 
-**Review status:** primary derivation and exact algebraic checks only. Independent review is unavailable following the recorded reviewer usage-limit failure. This extension is outside the unchanged paper and its earlier independent reviews. No priority, publication-readiness or practical-impact claim is made.
+**Review status:** primary derivation and exact algebraic checks only. Independent review is unavailable following the recorded reviewer usage-limit failure. This extension is included in Section7 of the November2 research draft; the earlier independent reviews do not cover it. No priority, publication-readiness or practical-impact claim is made.
 
 ## Statement
 

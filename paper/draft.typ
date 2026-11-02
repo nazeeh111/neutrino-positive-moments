@@ -7,13 +7,13 @@
 #align(center)[
   #text(size: 20pt, weight: "bold")[Exact frequency uncertainty from neutrino angular moments]
   #v(4mm)
-  #text(size: 11pt)[A four-disk diagnostic and sharp growth envelopes]
+  #text(size: 11pt)[Exact certificates and sharp axial and nonaxial growth bounds]
   #v(3mm)
-  #text(size: 9pt)[Working research draft · 1 November 2026 · Not submitted or peer reviewed]
+  #text(size: 9pt)[Working research draft · 2 November 2026 · Not submitted or peer reviewed]
 ]
 #v(4mm)
 #block(inset: 8pt, fill: luma(96%))[
-*Abstract.* Angular moment data do not specify a neutrino angular distribution. We study the inverse stability question: which unstable temporal frequencies can occur for some positive angular completion of given number density and flux? In the local, collisionless, axisymmetric fast limit, both longitudinal and transverse dispersion equations reduce to one complex Stieltjes value. Classical finite-interval moment theory turns each species' attainable values into two disks. A frequency is attainable exactly when four translated disks intersect. At most sixteen explicit candidates suffice, and exact algebraic witnesses or independent emptiness checks replace solver-status decisions. We derive sharp growth caps over every real frequency for equal masses and zero flux, with explicit attaining measures. Supplied second number moments also give sharp caps over all wave numbers, with essential stable edge cases. We extend the exact diagnostic to nonzero species flux and supplied second moments. For equal supplied second moments, we give the complete sharp finite-wave-number envelope: endpoint, cubic and plateau regimes, with positive attainers and a cube-root small-moment limit. A fixed published counter-flux test yields no added-moment rejection of the reproduced closure modes, so practical utility remains open. Positive smooth completions can grow despite sharing their first and second number angular moments with a stable isotropic pair. All 504 predeclared classifications and 90 boundary/scaling cases have exact independent checks. These results concern a restricted uncertainty class, not prediction of an actual supernova background. Weyl-disk theory and completion ambiguity are established precedents; priority and practical impact of the specialized envelopes remain to be assessed.
+*Abstract.* Angular moment data do not specify a neutrino angular distribution. We ask which growing frequencies can occur for some positive angular completion. In the local, collisionless, axisymmetric fast limit, the dispersion equations reduce to one complex Stieltjes value. Classical finite-interval moment theory turns each species' attainable values into two disks, and frequency compatibility becomes a four-disk intersection with exact certificates. We derive sharp axial growth caps over every real frequency, and a complete finite-wave-number envelope for equal supplied second moments, with endpoint, cubic and plateau regimes and positive attainers. A separate extension removes axial symmetry: for independent positive sphere measures with common mass $N$, zero vector flux and second tensor $(N/3)I$, every growing mode obeys the sharp cap $op("Im") omega<=2N/3$, for arbitrary real frequency part and wave vector. A positive matrix factorization proves this bound, including mixed polarization components; an exact oscillating mode attains it. The nonaxial proof has exact algebraic checks but awaits independent review. The earlier 504 classifications and 90 boundary/scaling cases have independent checks. Smooth unstable completions can share low moments with a stable pair. A fixed published counter-flux test rejects none of the reproduced closure modes, leaving practical utility unresolved. These are information bounds, not predictions for a supernova background. Classical moment theory and completion ambiguity are established precedents; scientific priority and high-impact usefulness remain unconfirmed.
 ]
 
 = Question and scope
@@ -23,6 +23,8 @@ Two-moment transport provides limited angular information. A closure chooses a c
 Let $mu_+$ and $mu_-$ be positive measures on $u in [-1,1]$, uniform in azimuth, with known masses $N_+,N_-$ and axial number fluxes $M_+,M_-$. Their signed measure is $G=mu_+-mu_-$. Heavy-flavor cancellation is an explicit pointwise symmetry assumption, not inferred from equal moments. Absorb a common self-interaction scale into masses, frequencies and wave numbers. All moments here are number weighted; calling the second moment thermodynamic pressure would require additional spectral assumptions.
 
 We use reduced real $k>0$ along the symmetry axis and $op("Im") omega>0$. Matter and background-current shifts are real and fixed by the supplied low moments. The model omits collisions, vacuum mixing, spatial variation and nonlinear saturation. Analytic angular integration, including its correct branch structure, is established @morinaga. No first three-dimensional solver or new generic moment theory is claimed.
+
+These axial assumptions apply to the frequency classifier and finite-band envelope. Section @nonaxial-section separately considers arbitrary positive measures on the unit sphere, with prescribed full isotropic second tensors and independent species. It retains the same local collisionless fast model and pointwise heavy-flavor cancellation. Its review status is explicitly distinguished from the earlier results.
 
 = Exact reduction of the stability question
 
@@ -164,9 +166,69 @@ The evaluator uses exact rational branch decisions. For $k<k_*$ put $t=2N a r/(c
 
 *Increment over existing bounds.* For $N=1$, $Q=1/3$, combine the earlier mass/flux cap $sqrt(k/(k+2))$, second-moment cap $2/3$ and Gram cubic. The complete cap tightens their minimum by at most $1-sqrt(8/9)$, approximately $5.72%$. Indeed, below $k=8/5$ the squared ratio of the first two caps' minimum to $F_1(k)$ is $9/((k+2)(4-k))<=9/8$; between $8/5$ and $2$ it is $4/(k(4-k))<=25/24$, and beyond $2$ both plateau. Adding the cubic only reduces that ratio. Sharp attainment is mathematically stronger, but this isotropic comparison establishes only a modest numerical tightening.
 
+#block(breakable: false)[
 At fixed finite $K,N$ as $Q=N a$ tends to zero,
 $ F_c(K)/((Q K^2/c)^(1/3)) -> 1. $
+]
 Rescaling @cubic by $Gamma=(N a K^2/c)^(1/3)h$ leaves $h^3-1$ plus coefficients tending to zero. The positive root tends to one in these units, while $y=Gamma/K$ and $a/y$ tend to zero, eventually placing $K$ in the cubic band. Hence the maximum tends continuously to the stable $Q=0$ corner and the transverse/longitudinal ratio tends to $2^(-1/3)$. Neither a physical cutoff nor general unequal-second-moment finite-band extrema follow.
+
+= A sharp nonaxial cap for isotropic moments <nonaxial-section>
+
+*Scope and review status.* Let each positive species measure on the unit sphere satisfy
+$ integral dif mu_s=N, quad integral bold(v) dif mu_s=0, quad integral bold(v)bold(v)^T dif mu_s=(N/3)I. $
+For arbitrary real wave vector and every root $omega=Omega+i gamma$, $gamma>0$, the full polarization obeys the sharp all-wave-number bound
+$ gamma<=(2N)/3. $ <nonaxial-cap>
+Neither axial symmetry nor an inversion relation between species is assumed. This extension has primary derivation and exact algebraic checks, but no completed independent review. It does not establish the complete nonaxial fixed-wave-number envelope or general unequal-moment extrema.
+
+*Reduction with mixed entries retained.* Choose $z$ along the wave vector, $k>0$, and put $bold(u)=(v_x,v_y)$ and $r=omega/k=x+i y$. Here $z$ is a real velocity coordinate. Set
+$ S=integral dif G/(omega-k z), quad bold(T)=integral bold(u) dif G/(omega-k z), quad R=integral bold(u)bold(u)^T dif G/(omega-k z). $
+Zero signed mass and flux imply, in coordinates $(0,z,x,y)$,
+$ Pi=mat(1+S,r S,bold(T)^T; r S,-1+r^2 S,r bold(T)^T; bold(T),r bold(T),-I+R). $
+#block(breakable: false)[
+Subtracting $r$ times the first row equation from the second gives $a_z=-r a_0$ for a null vector. With $q_0=(1-r^2)a_0$, singularity is therefore equivalent to that of
+$ M=mat(1/(1-r^2)+S,bold(T)^T; bold(T),-I+R). $
+]
+Since $y>0$, $1-r^2$ is nonzero. At $k=0$, zero signed moments through degree two give $Pi=eta$ directly, excluding a growing root.
+
+Choose $p+i q=sqrt(1-r^2)$ with $p>0$, and define
+$ h=sqrt(p^2+x^2), quad t=sqrt(h^2-1), quad a=x/h, quad b=p/h. $
+The identities $p^2-q^2=1-x^2+y^2$ and $p q=-x y$ give
+$ a^2+b^2=1, quad h^2-t^2=1, quad x=a h, quad y=b t, quad p=b h, quad q=-a t, $
+where $b,t>0$. Thus these real parameters cover every upper-half-plane $r$. Put $J=op("diag")(i(p+i q),1,1)$ and $H=-J M J$. Congruence preserves singularity. The matrices are complex symmetric, so the Hermitian part of $H$ is its entrywise real part.
+
+For $s=1-z^2=abs(bold(u))^2$ and $D=(z-a h)^2+b^2t^2$, define
+$ F_a=1/D mat(-(z-a h)s,-t(h-a z)bold(u)^T; -t(h-a z)bold(u),(z-a h)bold(u)bold(u)^T). $
+Polynomial division gives $(1-r^2)/(r-z)=(1-z^2)/(r-z)-(r+z)$; the last term integrates to zero. Direct expansion then yields
+$ op("Herm")(H)=I+(1/k)integral F_a dif G. $
+Full inversion of the velocity changes $F_a$ to $-F_(-a)$. Let $nu_+=mu_+/N$ and let $nu_-$ be the normalized full inversion of $mu_-$. These are positive isotropic unit measures, and
+$ op("Herm")(H)=I+(N/k)(bb(E)_(nu_+)F_a+bb(E)_(nu_-)F_(-a)). $
+This identity concerns the Hermitian part used for exclusion; it does not replace the actual background by an inversion-paired one.
+
+*Pointwise positive certificate.* For each sign of $a$, set
+$ K_a=b h+a t, quad e_a=(K_a^2-t^2)/h^2, quad alpha=b(1+2t^2)/h, quad beta=-t/h, $
+$ Q_a=(3/2)mat(s,(alpha+beta z)bold(u)^T; (alpha+beta z)bold(u),(K_a^2/h^2)z^2 I+e_a bold(u)bold(u)^T), quad P_a=Q_a+3y F_a. $
+The coefficient $e_a$ may be negative; positivity concerns the complete matrix $P_a$. Write
+$ A=z-a h-b t, quad ell=-t D+h[(b h-a t)(z-a h)+(b h+a t)b t]. $
+Its upper diagonal and mixed entries are
+$ (P_a)_(00)=(3s A^2)/(2D), quad (P_a)_(0u)=(3A ell bold(u)^T)/(2h D). $
+The transverse direction perpendicular to $bold(u)$ has eigenvalue $3K_a^2z^2/(2h^2)>=0$. The remaining two-by-two block, in the direction parallel to $bold(u)$, is
+$ 3/(2D) mat(s A^2,sqrt(s)A ell/h; sqrt(s)A ell/h,ell^2/h^2). $
+It is an outer product and hence positive semidefinite. The lower-entry identity is
+$ ell^2=D[K_a^2z^2+(K_a^2-t^2)s]+2h^2b t(z-a h)s. $
+Together with the mixed-entry factorization, it follows algebraically from $a^2+b^2=1$ and $h^2-t^2=1$. At the poles $s=0$, direct substitution gives nonnegative transverse entries. Thus $P_a$ is positive semidefinite on the entire sphere, without angular discretization.
+
+*Averaging and exclusion.* The prescribed moments give
+$ bb(E)Q_a=op("diag")(1,lambda_a,lambda_a), quad lambda_a=(K_a^2-t^2/2)/h^2. $
+The separate $lambda_a$ need not be positive. Their average satisfies
+$ lambda_("av")=(lambda_a+lambda_(-a))/2=(b^2+t^2/2)/h^2, quad 1-lambda_("av")=(a^2+t^2/2)/h^2>=0. $
+For $tau=(2N)/(3gamma)$ and $gamma=k y$,
+$ op("Herm")(H)&=(1-tau)I+(tau/2)(bb(E)_(nu_+)P_a+bb(E)_(nu_-)P_(-a)) \
+&+tau op("diag")(0,1-lambda_("av"),1-lambda_("av")). $
+If $gamma>(2N)/3$, the first term is positive definite and the others are positive semidefinite. A null vector would contradict $op("Re")(w^dagger H w)>0$ for nonzero $w$. This proves @nonaxial-cap for all real frequency parts, rather than only the imaginary axis.
+
+*Sharpness, including an oscillating mode.* At $N=1$, give the plus species weight $3/16$ at each $(plus.minus 2/3,plus.minus 2/3,1/3)$ and weight $1/4$ at $(0,0,-1)$. Give the minus species weight $1/6$ at each of the six coordinate-axis directions. Both have exactly the stated full moments. At $k=4$, the original polarization has the null vector $(1,-omega/k,0,0)$ in the coordinate order above for $omega=2/3+2i/3$; both transverse factors are $-3/2$. The attaining mode therefore has nonzero real frequency. Scaling masses, wave number and frequency proves sharpness for every $N>0$. Atomic attainment does not assert exact attainment under smoothness or occupancy restrictions.
+
+The executable proof checks five polynomial identities by exact reduction modulo the two parameter constraints. It also checks 180 full polarization/decomposition cases, including 144 with nonzero real frequency, and the exact oscillating attainer. The universal conclusion rests on the written positive matrix identity; finite tests check its implementation. Independent review, theorem-level priority assessment and operational utility remain outstanding.
 
 #block(breakable: false)[
 = Exact frequency compatibility with general supplied second moments
@@ -222,7 +284,7 @@ A stronger continuous comparison uses the original Hausdorff matrices as four se
 
 Generation medians are about 2.37 ms for exact geometry and 3.58 ms for the conic proposer. Independent checking is substantially cheaper for the conic certificates. On jointly certified cases, the median paired ratio of conic total generation-plus-checking cost to geometric cost is 0.737. Thus *the exact method has no demonstrated end-to-end speed superiority*. Its demonstrated benefit is resolving all specified rational boundaries and returning exact decisions, with larger checking cost. The solver's internal median of about 0.125 ms is not compared with another method's total time. Results are limited to these synthetic instances, implementation and machine. An avoidable small-scale normalization weakness in an initial conic run was corrected before aggregate inspection; both runs and the amendment are preserved.
 
-The global-bound extension has independent formal polynomial and exact-arithmetic checks. The second-moment construction passes 1,170 exact direct substitutions in the original dispersion factors, with positive weights and all prescribed moments checked. These checks corroborate the written proofs; no finite test set proves a universal bound.
+The earlier axial global-bound extension has independent formal polynomial and exact-arithmetic checks. The second-moment construction passes 1,170 exact direct substitutions in the original dispersion factors, with positive weights and all prescribed moments checked. These checks corroborate the written proofs; no finite test set proves a universal bound. The later nonaxial extension in Section @nonaxial-section has primary checks only; the earlier independent reviews do not cover it.
 
 *Published counter-flux test and a failed utility gate.* The controlled linear angular input of Richers et al. @pic has normalized species moments $(1,plus.minus 1/3,1/3)$. These are exact number moments of its prescribed continuum distributions, not a merger snapshot or closure-derived pressure. The zero-species-flux sharp theorems do not apply to this input; the general M2 diagnostic does.
 
@@ -238,7 +300,7 @@ The general M2 checker passed nine independent tests, including 1,500 locus iden
 
 The underlying finite-interval transform loci are classical @di_dio @heide. In particular, the two-ball theorem specializes directly to the scalar mass/flux problem; combining two species does not make that moment theory new. Closure/completion ambiguity and low-moment crossing disagreement are also explicit predecessors @johns. Consequently, the defensible candidate contribution is the specialized exact frequency diagnostic with attaining completions, the sharp constrained growth caps over every real frequency, the second-moment extrema over all wave numbers, the complete equal-second-moment finite-band envelope, and the explicit smooth matched-second-moment instability example. Exact beam growth maxima @chakraborty and geometric-mean crossing-depth estimates @richers are also established; the square-root-product form alone is not new. The present theorem instead bounds all compatible completions from supplied species moments and proves attainment. Focused searches found no identical constrained sharp theorem, but absence from a search is not proof of priority.
 
-The construction has survived independent mathematical and physics review within its model; those reviewers were fresh-context model agents, not external human referees. Practical importance remains unproved; the fixed counter-flux closure-exclusion test failed its declared utility gate. Needed next steps include expert priority review, realistic number-moment provenance, more physical classes and independent hardware reproduction. A justified uncertainty class must incorporate any available energy/occupancy or angular regularity information. No additional scan of this same fixed closure test is justified as a way to turn its failed gate into success. Arbitrary wave-vector directions, full three-dimensional angular uncertainty, collisions, nonlinear flavor evolution and actual astrophysical consequences remain outside this result. The two equal-mass/zero-flux extremum theorems have their stated global quantifiers; the finite classifier map does not give a general all-frequency or all-wave-number census.
+The earlier axial construction survived independent mathematical and physics review within its model; those reviewers were fresh-context model agents, not external human referees. The new nonaxial all-frequency cap has not received that review. It removes the symmetry restriction for common isotropic full moments, but does not give the complete nonaxial fixed-wave-number envelope or an arbitrary-moment three-dimensional classifier. Practical importance remains unproved; the fixed counter-flux closure-exclusion test failed its declared utility gate. Needed next steps include independent scrutiny of the new proof, expert priority review, realistic number-moment provenance and independent hardware reproduction. Available energy/occupancy and angular regularity constraints must be respected. Collisions, nonlinear flavor evolution and actual astrophysical consequences remain outside the model. No additional scan of the failed fixed closure test is justified as a way to manufacture success.
 
 Any positive angular quadrature preserving the supplied moments is itself an admissible completion. Every exact mode of that quadrature must therefore remain compatible, even when it is absent from the intended continuum background. The diagnostic cannot by itself filter such discretization-induced modes; analytic angular integration uses additional distributional information @morinaga. Nor does a worst-case finite-band envelope guarantee the fraction of growth captured for a fixed background, or establish a stable numerical time step.
 
