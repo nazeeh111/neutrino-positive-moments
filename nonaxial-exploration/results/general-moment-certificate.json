@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "random_original_matrix_identity_cases": 40,
+  "unequal_mass_cases": 39,
+  "nonparallel_flux_cases": 40,
+  "nonzero_real_frequency_cases": 27,
+  "statuses_not_an_accuracy_benchmark": {
+    "excluded": 16,
+    "unresolved": 24
+  },
+  "fixed_fixture": {
+    "status": "excluded",
+    "k": "99/25",
+    "omega": {
+      "real": "0",
+      "imag": "4/5"
+    },
+    "lower_matrix": [
+      [
+        "2150610885/6341258384",
+        "-39148988251/320233548392",
+        "-39148988251/640467096784"
+      ],
+      [
+        "-39148988251/320233548392",
+        "12917577357347/64687176775184",
+        "-497675/396328649"
+      ],
+      [
+        "-39148988251/640467096784",
+        "-497675/396328649",
+        "4230959307599/16171794193796"
+      ]
+    ],
+    "norm_squared_rayleigh_lower": "663/800",
+    "moments_plus": {
+      "N": "1",
+      "F": [
+        "1/10",
+        "1/10",
+        "0"
+      ],
+      "Q": [
+        [
+          "3/10",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3/10",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "2/5"
+        ]
+      ]
+    },
+    "moments_minus": {
+      "N": "4/5",
+      "F": [
+        "-1/10",
+        "0",
+        "1/10"
+      ],
+      "Q": [
+        [
+          "3/10",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/5",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3/10"
+        ]
+      ]
+    }
+  },
+  "exact_growing_root_not_excluded": true,
+  "invalid_equal_current_shortcut_detected": true,
+  "singular_delta_returns_unresolved": true,
+  "zero_species_control": true,
+  "source_sha256": "1091be0073c8216c60d21973aca56e36f78537bd01048d2749cfea9b0818bace",
+  "certificate_source_sha256": "779d1ca2b0a57368e8a1246d3070726f25501405533b6a9325b44cac586a3074",
+  "plan_sha256": "22ef676d79f54013323348f278f12b05daa83f269fec0d3a61e562a9e78a575c",
+  "scope": "Primary exact feasibility checks; not independent review, complete classification, physical-use pass or priority evidence"
+}

@@ -32,6 +32,7 @@ Each point in this figure optimizes over a potentially different angular complet
 | `moments.py`, `geometry.py` | Exact four-disk compatibility with supplied mass and flux. The shared module also imports the numerical comparison dependencies. |
 | `second_moment_bounds.py` | Sharp all-wave-number growth caps and positive attainers with separate second moments, including essential stable corners. |
 | `independent_verifier.py`, `independent_m2_verifier.py` | Separate exact proof checkers that import no production geometry or optimizer. |
+| `nonaxial-exploration/general_moment_certificate.py` | Sufficient 3D frequency exclusion for general species masses, vector fluxes and second tensors. Exact parameterized frequencies; unresolved is not a compatibility decision. Primary feasibility stage. |
 
 For a supplied-M2 example:
 
@@ -63,6 +64,8 @@ A subsequent [finite-amplitude nonaxial certificate](nonaxial-exploration/imagin
 The newer [full-frequency nonaxial proof](nonaxial-exploration/full-frequency-bound.md) closes that real-frequency restriction for the **all-wave-number isotropic cap**: `gamma <= 2N/3`, with arbitrary three-dimensional angular measures and independent species. It uses separate positive matrix certificates for the two species and an exact outer-product factorization. The checker verifies five polynomial identities, 180 full-matrix cases and an exact oscillating attainer. This extension remains primary-checked and awaits independent review and priority assessment; it is now included in Section7 of the research draft and does not establish the nonaxial fixed-k envelope.
 
 The [exact information-limit consequence](usefulness-assessment/nonaxial-information-limit.md) sharpens its interpretation: the same supplied moments admit actual maximum growth rates spanning the entire interval `[0,2N/3]`. A deterministic point estimate from those moments alone therefore has optimal worst-case absolute error `N/3`. The construction is checked in the original beam operator. This is a corollary of the bound, not a new practical-use pass; a published crossing-depth proxy uses extra angular information and answers a different question.
+
+A [general-moment feasibility extension](nonaxial-exploration/general-moment-certificate.md) retains the signed density/current terms and gives a sufficient positive-matrix exclusion test for unequal masses and nonparallel fluxes. Its frozen synthetic fixture is excluded below the species-block operator-norm bound. Forty exact original-matrix checks, an actual growing mode and a singular-denominator control pass. This is not a complete compatibility classifier, practical-use pass or independent review. Run `python3 -B -O nonaxial-exploration/check_general_moment_certificate.py` to reproduce it.
 
 ## Reproduce
 
@@ -97,7 +100,7 @@ The build retains the last successful PDF until its replacement compiles and ren
 
 ## Scope and prior work
 
-The main diagnostic and current paper assume positive axisymmetric angular measures and propagation along the symmetry axis. The newer, separately labeled nonaxial bound removes those symmetry assumptions only for common isotropic full moments. All use local collisionless fast evolution and explicit pointwise heavy-flavor cancellation; moments are number weighted. Atomic extrema do not establish exact attainment under smoothness or occupation constraints. No physical ultraviolet cutoff, arbitrary-moment three-dimensional classifier, universal-instability classifier, nonlinear-conversion prediction or actual supernova/merger validation is claimed.
+The main diagnostic and current paper assume positive axisymmetric angular measures and propagation along the symmetry axis. The newer, separately labeled nonaxial bound removes those symmetry assumptions only for common isotropic full moments. All use local collisionless fast evolution and explicit pointwise heavy-flavor cancellation; moments are number weighted. Atomic extrema do not establish exact attainment under smoothness or occupation constraints. No physical ultraviolet cutoff, complete arbitrary-moment three-dimensional classifier, universal-instability classifier, nonlinear-conversion prediction or actual supernova/merger validation is claimed.
 
 Weyl disks, Hausdorff positivity, completion ambiguity, moment-only zero-mode diagnostics, beam growth formulas and generic disk mixtures are established tools. The candidate contribution is the specialized exact diagnostic and the sharp constrained extrema with their attaining completions. The [priority record](full-band-priority-update.md) distinguishes those claims from direct predecessors. Bounded searches and model-agent reviews do not establish priority or external human validation.
 

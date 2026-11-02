@@ -7,8 +7,8 @@
       "bytes": 13
     },
     ".github/workflows/verify.yml": {
-      "sha256": "82e4f14393b9e617599ada23eae1fd9dd8af31cc56112d2e820b531154257100",
-      "bytes": 2267
+      "sha256": "d599f130325f8b1f1fe15a493bf0b316248292c8a4804897a755d7ec2d2cf53d",
+      "bytes": 2415
     },
     ".gitignore": {
       "sha256": "5f0ebe68453360e278dfef71bf41e6abb9fa7eb0b8a94f95bb2165c6676500a2",
@@ -19,12 +19,12 @@
       "bytes": 1781
     },
     "CLAIMS.json": {
-      "sha256": "91e1d4f8a2faace87d260649f4fc683d05af9a7194b49677507407c53bd412ad",
-      "bytes": 7584
+      "sha256": "dfc527ca66da0b4a5a5887e047b31a93e75d8b9ea012ca4c18e1a8d2ea571b78",
+      "bytes": 8539
     },
     "EXTERNAL_REVIEW_BRIEF.md": {
-      "sha256": "1ec4cd9c8e83196232dbd4b84528a23b7d5009ec973593dd5e393a19ac3b6e0d",
-      "bytes": 6930
+      "sha256": "530b55772fa49de3a8e31145214e2decbd1be015d7843d17960e11b73b263107",
+      "bytes": 7413
     },
     "FINITE_K_TRANSITION_PLAN.md": {
       "sha256": "0e6d5fb70967e67adb80e0fb2045cc5f7e1ebc6f8faa573afcc8975de8701256",
@@ -39,8 +39,8 @@
       "bytes": 5097
     },
     "NEXT_RESEARCH.md": {
-      "sha256": "716a8fef5e86dcbe9f3a27182cae3487a015237d75a7f8ab1249f054f2e59dae",
-      "bytes": 9889
+      "sha256": "6aa4cfeb8381587971c0893538725a5a67baad6410b24f01f8db2d4b6c409e68",
+      "bytes": 10743
     },
     "NOVELTY.md": {
       "sha256": "4b8e963c9d9a567c151b98538701d5a052dd0c17fdc5bcb24713c16927aec35c",
@@ -59,8 +59,8 @@
       "bytes": 5942
     },
     "README.md": {
-      "sha256": "c4abdd1a26c902fe362ab5d5ffe8ac898fb5f3390dc0e1b86311e15eaf8c9029",
-      "bytes": 13998
+      "sha256": "20560170283c68b2060d7419cd97903c785c7bc9f28cd401c24f2393543c99b1",
+      "bytes": 14869
     },
     "SMOOTH_VALIDATION_PLAN.md": {
       "sha256": "4bf1affc30bdb94d9833ddfa8ce3cea441a441b0f23992084f11b224a42fb34d",
@@ -226,6 +226,10 @@
       "sha256": "391114c88b700ef64c5a093c9ce0e9e3fb013719cea29233bd7d4dca83053bd8",
       "bytes": 10669
     },
+    "nonaxial-exploration/GENERAL_CERTIFICATE_PLAN.md": {
+      "sha256": "22ef676d79f54013323348f278f12b05daa83f269fec0d3a61e562a9e78a575c",
+      "bytes": 2304
+    },
     "nonaxial-exploration/PLAN.md": {
       "sha256": "d0443454c5a83527dbd0d2a3448c52b68168ccb92ecf2b40cc3b3dbcf843a661",
       "bytes": 1859
@@ -233,6 +237,10 @@
     "nonaxial-exploration/TANGENT_PLAN.md": {
       "sha256": "4d555778f8a44b26f311d78c5aaa8ecf507aa182d7cb7ff3bbefa957c4a68ff6",
       "bytes": 1898
+    },
+    "nonaxial-exploration/check_general_moment_certificate.py": {
+      "sha256": "1091be0073c8216c60d21973aca56e36f78537bd01048d2749cfea9b0818bace",
+      "bytes": 7965
     },
     "nonaxial-exploration/exact_nonaxial_full_bound.py": {
       "sha256": "3cb5596accb4625c630fce2cabee9f0e585f153dc5497be5d2a3304616f5c12f",
@@ -254,6 +262,14 @@
       "sha256": "9fd3393ea3cf504730f5aa583d9d2bbaf0ac13a9e92a2183eef53ffefc6a2173",
       "bytes": 7824
     },
+    "nonaxial-exploration/general-moment-certificate.md": {
+      "sha256": "17c7b71ffa71c2b3fc3870306704693c71010dfb624cea7e15a573f0bc2cbc87",
+      "bytes": 6669
+    },
+    "nonaxial-exploration/general_moment_certificate.py": {
+      "sha256": "779d1ca2b0a57368e8a1246d3070726f25501405533b6a9325b44cac586a3074",
+      "bytes": 3795
+    },
     "nonaxial-exploration/imaginary-axis-bound.md": {
       "sha256": "9c0ced5536c180a5f4ac97e1d454cd6152d9ad3fea3912a0a5067843fedd6a69",
       "bytes": 5757
@@ -273,6 +289,10 @@
     "nonaxial-exploration/results/full-frequency-certificate.json": {
       "sha256": "d80cc744f3562da2766cd4034c4ca8d1dd421b2d60b60852b6d3743bd0d35f66",
       "bytes": 729
+    },
+    "nonaxial-exploration/results/general-moment-certificate.json": {
+      "sha256": "d2bdf07a4e3c1e0dec77dc4d8c33864fca71645959f896ad2222046466fa8482",
+      "bytes": 2076
     },
     "nonaxial-exploration/results/imaginary-bound-certificate.json": {
       "sha256": "b85b1e8b56360495f103da013292da3b5fecd5c74d80eae62c8afef6c9f84d54",

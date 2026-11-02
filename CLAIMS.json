@@ -154,5 +154,17 @@
       "usefulness-assessment/growth-range.json"
     ],
     "scope": "Arbitrary positive angular measures; common-component mixture and scale argument; not fixed-k, smooth-density attainment, astrophysical accuracy or a comparison with equally informed point predictors"
+  },
+  "general_nonaxial_moment_exclusion_feasibility": {
+    "claim": "A sufficient3x3 positive-matrix frequency-exclusion certificate from general positive species N,vectorF,tensorQ, retaining nonzero signed density/current",
+    "status": "Primary mathematical feasibility gate passed; not independent review, complete compatibility, priority or physical-use evidence",
+    "evidence": [
+      "nonaxial-exploration/GENERAL_CERTIFICATE_PLAN.md",
+      "nonaxial-exploration/general-moment-certificate.md",
+      "nonaxial-exploration/general_moment_certificate.py",
+      "nonaxial-exploration/check_general_moment_certificate.py",
+      "nonaxial-exploration/results/general-moment-certificate.json"
+    ],
+    "scope": "k>0 along chosenz; rational a,b,h,t frequency parameterization; Delta0 unresolved; exact frozen exclusion below species-block norm,40original-matrix cases and actual-root controls; no general float/interval input or speed result"
   }
 }
