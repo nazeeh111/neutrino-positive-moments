@@ -131,3 +131,23 @@ The corrected comparison includes all three applicable previous caps. For isotro
 
 
 A [focused published-advection case review](advection-usecase-gate.md) found that fitted growth rates and Fourier peaks alone do not supply the complete modes required for certified exclusion. For consistent fixed scalar longitudinal closures, an explicit operator equivalence to positive two-node quadratures shows why the same moment class must accept their growing roots. Run `python3 -B -O usefulness-assessment/closure_equivalence.py` for200 exact operator identities and an independently checked original-factor example. This conditional result does not describe the full FLASH tensor closure or its nonlinear advection, and it does not constitute a new practical-use pass.
+
+### Recipient report
+
+`python3 -I -B -O verify_recipient.py` prints a read-only JSON report with
+separate delivered-byte and selected exact-certificate checks. It checks saved
+axial, M2 and the general nonaxial example certificates using local checker
+code, and lists unchecked evidence families and unresolved results. Hashes
+compare against the local manifest and do not authenticate the source. This
+report does not reproduce numerical results or verify every theorem and
+physical claim. `--output NEW_FILE` writes exclusively to a new path; the
+default writes no files. Original replay scripts remain available for their
+additional checks and may write their documented outputs.
+
+Selected certificate inputs are checked from the same captured bytes used for
+integrity verification. The local checker code and manifest must be trusted;
+this is not an authentication mechanism or an isolation boundary against
+concurrent changes to executable checker code or directory components. The
+report requires all selected data and checker paths in the manifest, rejects
+nonregular files, and limits each file to 8 MiB, total manifest content to
+64 MiB and the manifest itself to 1 MiB.
