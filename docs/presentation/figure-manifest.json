@@ -1,0 +1,25 @@
+{
+  "source": "case.json",
+  "sourceSHA256": "91ad96f776963eecedb9c43e05da26c68d5089fda327b215aad4a8582daf3af6",
+  "encoding": "u position = x0+(u+1)/2*(x1-x0); stem height =96*weight; common u[-1,1] and weight[0,1]. Four actual atoms, no interpolation or scan. Equal circle radii are decoration, not mass encoding.",
+  "variants": {
+    "witness.svg": {
+      "x0": 65,
+      "x1": 565,
+      "bases": [
+        301,
+        478
+      ]
+    },
+    "witness-mobile.svg": {
+      "x0": 48,
+      "x1": 327,
+      "bases": [
+        329,
+        531
+      ]
+    }
+  },
+  "claim": "Attainability check only. Written universal upper-bound proof remains separate.",
+  "units": "Dimensionless reduced frequency and wave number; number-weighted angular moments."
+}

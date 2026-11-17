@@ -1,1 +1,4 @@
 *.pdf binary
+
+# Preserve exact native presentation payload bytes.
+docs/presentation/** -text

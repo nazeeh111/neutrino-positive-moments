@@ -1,0 +1,31 @@
+{
+  "source_commit": "27d997295b478f6e214df0d92b49fb5117ec8c8d",
+  "source_tree": "1e4e3256c30818200fcc191847d16e8a9a7d3e34",
+  "source_default_branch": "codex/research",
+  "working_draft_date_preserved": "2 November 2026",
+  "scope": "A separate explanatory endpoint-witness case and reader; no research algorithm, manuscript, proof, historical output or earlier presentation record changed. README and current delivery manifest reconciled separately.",
+  "earlier_presentation_record": "../../PRESENTATION_PROVENANCE.json",
+  "exact_case": "case.json",
+  "native_output": "evaluator.json",
+  "actual_check": "checked.json",
+  "kernel_binding": "case.json kernel_sha256",
+  "runtime": "CPython 3.14.7 standard library only, -I -S -B -O for portable selected witness; existing general-frequency proposer requires its documented non-isolated script-path invocation.",
+  "verified": [
+    "Existing 5 finite-band unit tests",
+    "Native CLI exact endpoint result",
+    "Positive support/mass/flux/second moments",
+    "Original longitudinal dispersion factor exact zero",
+    "Independent Fraction endpoint formula and rational enclosure",
+    "Tampered weights/growth rejected",
+    "Standalone general 3D verifier replay and changed-frequency rejection",
+    "Fresh portable extraction and 18-member hash closure",
+    "Actual Chrome fonts/bounds and desktop/true 375 reader"
+  ],
+  "limits": [
+    "One existing mathematical example, not a new theorem or scientific campaign",
+    "Universal bound relies on the retained written proof; finite witness verifies attainment",
+    "Trusted local code/hashes are not authenticity or independent scientific review",
+    "No physical scale, actual-background instability or astrophysical usefulness established",
+    "Hosted GitHub rendering awaits publication; before/after captures are local opening previews"
+  ]
+}
