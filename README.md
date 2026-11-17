@@ -6,9 +6,14 @@ Given a few angular moments, many positive neutrino distributions remain possibl
 
 [Research draft](paper/research-draft.pdf) · [Full research guide](RESEARCH_GUIDE.md) · [Physical scope](PHYSICAL_SCOPE.md) · [Priority and usefulness](NOVELTY.md)
 
-![Sharp finite-band bounds against the combined prior caps and one endpoint family, for two supplied second moments](paper/finite-band.png)
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/presentation/witness-mobile.png">
+  <img src="docs/presentation/witness.png" alt="Two positive species each share moments (1, 0, 1/3). Four exact atoms attain squared growth 1333/3000000 at reduced wave number 1/1000; the original longitudinal factor is exactly zero. This is one compatible completion, not a prediction for the actual background.">
+</picture>
 
-*Each point maximizes over potentially different compatible angular distributions. These curves are information bounds, not the dispersion relation of one physical background. The original figure and all research results are preserved.*
+[Replay this exact witness](docs/presentation/README.md) · [Self-contained native example](docs/presentation/worked-example.zip) · [Readable offline case](docs/presentation/index.html)
+
+The two species place weights **1/4 and 3/4** at reflected angular positions. Their mass, zero flux and second number moment agree, yet the original dispersion factor admits a growing mode. The witness checks attainment; the universal bound comes from the written proof. [Original complete finite-band figure](paper/finite-band.png), research results and earlier presentation provenance remain unchanged.
 
 ## Try an exact bound
 
@@ -52,4 +57,4 @@ A compatible unstable mode need not occur in the actual background. Atomic compl
 
 Start with `verify_bundle.py`, which checks the delivered file hashes. Work in a copy before running the longer exact or numerical checks: some scripts write audit results. The [reproduction instructions](RESEARCH_GUIDE.md#reproduce) distinguish standard-library replays, optional numerical dependencies and paper builds. Historical drafts and original research records remain intact.
 
-The research PDF is a **working draft**, not a submitted or peer-reviewed paper. The [presentation record](PRESENTATION_PROVENANCE.json) distinguishes the new front door from the unchanged research bundle and retained original guide. Code and data use the [MIT license](LICENSE).
+The research PDF is a **working draft**, not a submitted or peer-reviewed paper. The earlier [presentation record](PRESENTATION_PROVENANCE.json) records the prior front-door revision. The separate [worked-case provenance](docs/presentation/provenance.json) binds this witness presentation; original research files and the retained guide remain unchanged. Code and data use the [MIT license](LICENSE).

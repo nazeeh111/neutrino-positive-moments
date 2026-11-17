@@ -3,8 +3,8 @@
   "scope": "Public research source,proofs,canonical data,plans,reviews,failure logs,current editable paper and preserved prior drafts. Private task continuation,environments,caches,preview PNGs,partial screen and git metadata excluded. Manifest excludes itself.",
   "files": {
     ".gitattributes": {
-      "sha256": "547f59603028195ff9f8a87d04c4651551e8bd0d68f075257dfd549cd846b25b",
-      "bytes": 13
+      "sha256": "64ed8263b421c48b3803161b1437659da53431c4fdd51dcbd75d138910f2f89d",
+      "bytes": 93
     },
     ".github/workflows/verify.yml": {
       "sha256": "6e88f312dd78fd6d52a5a7dcf6f735b1cbb581f52457e55a1995af1c3add6c40",
@@ -63,8 +63,8 @@
       "bytes": 2365
     },
     "README.md": {
-      "sha256": "afe602e2dc74eee7c950af41db474c26357d2c03211f77c36946640be923bfe6",
-      "bytes": 5288
+      "sha256": "4d8a7847f8c1a84608e486493c07eeac836b8c7b7abc062cfea0e1b66763edb2",
+      "bytes": 6045
     },
     "RESEARCH_GUIDE.md": {
       "sha256": "bc1fd57e1bae452fc8e94545a116fc942e4d0397455b1b48879ad6146a2ffb09",
@@ -853,6 +853,70 @@
     "verify_m2_screen.py": {
       "sha256": "8fb89530f4df4041c2a21c8e4f4185163818c159569646d4a1a609d87d49049c",
       "bytes": 4244
+    },
+    "docs/presentation/LICENSE": {
+      "sha256": "08b86cd47be5b3a86c7252f0ec3279bcc8c3df5879532953badc934e15391bf4",
+      "bytes": 1063
+    },
+    "docs/presentation/PHYSICAL_SCOPE.md": {
+      "sha256": "fbc72a09f3c330b31c7250f142e4f2fc39b293fc8fe8741982463fc1b0901bf0",
+      "bytes": 2689
+    },
+    "docs/presentation/README.md": {
+      "sha256": "962b14f2689bdde9c0f2181948c23754dd7f2abd120bea080a3633c4eb706280",
+      "bytes": 4037
+    },
+    "docs/presentation/case.json": {
+      "sha256": "91ad96f776963eecedb9c43e05da26c68d5089fda327b215aad4a8582daf3af6",
+      "bytes": 1232
+    },
+    "docs/presentation/check.py": {
+      "sha256": "f0a8de2e98b17393c04750b94e448ed9165b7cbcf6210756025900c9ea82d5b0",
+      "bytes": 3042
+    },
+    "docs/presentation/checked.json": {
+      "sha256": "ff3a758f3568ad1b58c504c2933becb3ade27d78733a401263371d885d222bf6",
+      "bytes": 396
+    },
+    "docs/presentation/evaluator.json": {
+      "sha256": "df9f360630c00c51eb649a30951624be561a0b5f40c43a74d4c55d8956c03157",
+      "bytes": 750
+    },
+    "docs/presentation/figure-manifest.json": {
+      "sha256": "dc17573de7957589c8728b417f33865dd97f6d78f48ee3e798108fa675a7ba70",
+      "bytes": 758
+    },
+    "docs/presentation/figure.py": {
+      "sha256": "78882997bbf717f56df9610d71f941337b979faa5700f7df1399be5d0b8ddae5",
+      "bytes": 4135
+    },
+    "docs/presentation/index.html": {
+      "sha256": "dc0202e43fa79b6535733a8428bc2a901c479a5ed432ef7263458e0b200ca497",
+      "bytes": 4374
+    },
+    "docs/presentation/provenance.json": {
+      "sha256": "f9e8d4404e7cd3f7bbea3ef90eac9bda59cdc66bf1b7ec4f357155a02c22ef92",
+      "bytes": 1863
+    },
+    "docs/presentation/witness-mobile.png": {
+      "sha256": "2f1f315f66919deb0fe6bda83ba6dd280875812e94b93b285de1c925ed74ea24",
+      "bytes": 49262
+    },
+    "docs/presentation/witness-mobile.svg": {
+      "sha256": "09e8921a2a31e7cebe5a73f54945f37321d692bde576b254f05053da387e84e4",
+      "bytes": 6832
+    },
+    "docs/presentation/witness.png": {
+      "sha256": "f69d199282f18352e072021d71b0da61d551b890d2371e16f0b750a35dd5fde8",
+      "bytes": 56683
+    },
+    "docs/presentation/witness.svg": {
+      "sha256": "337d69dd416da0f1165c6692c4e106f40e1f3e309f00ba6786ea5b1cebe57cdd",
+      "bytes": 6795
+    },
+    "docs/presentation/worked-example.zip": {
+      "sha256": "c5a5ce631936c10c9ca9e0d6cd77997181859873b7e93e460cb5c2a6ae430815",
+      "bytes": 126568
     }
   },
   "presentation_update": {

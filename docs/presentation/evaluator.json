@@ -1,0 +1,16 @@
+{
+  "mass": "1",
+  "second": "1/3",
+  "kmax": "1/1000",
+  "sector": "longitudinal",
+  "normalized_second": "1/3",
+  "normalized_k": "1/1000",
+  "branch": "endpoint",
+  "growth_lower": "19112406062042333766593/906694364710971881029632",
+  "growth_upper": "38224812124084667533187/1813388729421943762059264",
+  "growth_squared_lower": "365284065480392548118520484721325950602827649/822094670998632891489572718402909198556462055424",
+  "growth_squared_upper": "1461136261921570192474158388509551971746376969/3288378683994531565958290873611636794225848221696",
+  "enclosure_bits": 80,
+  "quantifier": "Sharp maximum over positive species completions,all real omega parts,0<=k<=kmax; not universal instability",
+  "exact_growth_squared": "1333/3000000"
+}

@@ -1,0 +1,45 @@
+{
+  "format": "retained-endpoint-witness-v1",
+  "source_commit": "27d997295b478f6e214df0d92b49fb5117ec8c8d",
+  "source_paths": [
+    "finite-k-transition-audit.md#6-explicit-attainers-in-every-regime",
+    "test_finite_band_envelope.py"
+  ],
+  "kernel_sha256": {
+    "finite_band_envelope.py": "e0fd9e4dce56dbb1c115690e8d7f14f4a419e6620cac2906d61886a448a9ddb5",
+    "independent_m2_verifier.py": "693a809992a4df303d70374167478aa7499b0edea0398be917c58965a3a0a62e",
+    "independent_verifier.py": "1f79a4dfbcfe9ccc180ff1bdd01579c25b0902fa6960ae19b7448ec10a347bce"
+  },
+  "input": {
+    "mass": "1",
+    "second": "1/3",
+    "kmax": "1/1000",
+    "sector": "longitudinal",
+    "bits": 80
+  },
+  "species": {
+    "plus": [
+      {
+        "u": "-1",
+        "weight": "1/4"
+      },
+      {
+        "u": "1/3",
+        "weight": "3/4"
+      }
+    ],
+    "minus": [
+      {
+        "u": "-1/3",
+        "weight": "3/4"
+      },
+      {
+        "u": "1",
+        "weight": "1/4"
+      }
+    ]
+  },
+  "gamma_squared": "1333/3000000",
+  "frequency": "omega=i*sqrt(1333/3000000)",
+  "meaning": "An attaining completion of the equal-moment axial endpoint theorem, not the actual astrophysical background. Dimensionless reduced quantities."
+}
