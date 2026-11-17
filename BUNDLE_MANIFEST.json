@@ -58,7 +58,15 @@
       "sha256": "21e1c19cdb6b26288bf941d533636b8f2f7d4342e5f17c0208ea757cf950ac88",
       "bytes": 5942
     },
+    "PRESENTATION_PROVENANCE.json": {
+      "sha256": "fbf3d7f296a6085d8ef1716919622a4e84c481a1a176103bd7e6bb742c147861",
+      "bytes": 2365
+    },
     "README.md": {
+      "sha256": "afe602e2dc74eee7c950af41db474c26357d2c03211f77c36946640be923bfe6",
+      "bytes": 5288
+    },
+    "RESEARCH_GUIDE.md": {
       "sha256": "bc1fd57e1bae452fc8e94545a116fc942e4d0397455b1b48879ad6146a2ffb09",
       "bytes": 16101
     },
@@ -846,5 +854,14 @@
       "sha256": "8fb89530f4df4041c2a21c8e4f4185163818c159569646d4a1a609d87d49049c",
       "bytes": 4244
     }
+  },
+  "presentation_update": {
+    "base_commit": "852b6c63915e326d9a9572f6d8130cc56fbadf9e",
+    "changed_existing_record": "README.md",
+    "added_records": [
+      "RESEARCH_GUIDE.md",
+      "PRESENTATION_PROVENANCE.json"
+    ],
+    "other210existing_records_unchanged": true
   }
 }

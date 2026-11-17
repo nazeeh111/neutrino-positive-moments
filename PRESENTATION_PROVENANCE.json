@@ -1,0 +1,33 @@
+{
+  "presentation_base_commit": "852b6c63915e326d9a9572f6d8130cc56fbadf9e",
+  "base_branch": "codex/research",
+  "base_tree": "eaf31b713255f7f397820e7b6db2dd6dec352308",
+  "base_manifest_sha256": "0d157a9185592b1a51eb024e2e04f1da4c322be9105daf76576c52c0e16538a6",
+  "retained_original_guide": {
+    "path": "RESEARCH_GUIDE.md",
+    "bytes": 16101,
+    "sha256": "bc1fd57e1bae452fc8e94545a116fc942e4d0397455b1b48879ad6146a2ffb09"
+  },
+  "scope": "Concise README, original research guide retained byte for byte, and presentation metadata only. Algorithms, proofs, studies, results, plots, PDF, tests and CI are unchanged.",
+  "preexisting_files_other_than_README_and_manifest_byte_exact": 210,
+  "checks": {
+    "original_manifest_members_verified": 211,
+    "existing_exact_check_groups_passed": 22,
+    "interpreter": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "execution": "Python -S -B -O in a private temporary source copy; site packages disabled.",
+    "actual_documented_CLI_examples": "Both passed. Finite-band example: endpoint branch and exact squared growth 1333/3000000.",
+    "independent_example_arithmetic": "A separate standard-library Fraction calculation reproduces the endpoint formula for the displayed input.",
+    "regenerated_audit_reports": "Only temporary copies were regenerated. The original results remain byte-exact.",
+    "scientific_scope": "Implementation and certificate replays. These are not a new independent scientific review, priority assessment, physical validation or benchmark."
+  },
+  "existing_figure": "paper/finite-band.png is unchanged. Each point can use a different compatible completion.",
+  "limits": [
+    "Working draft, not a submitted or peer-reviewed paper.",
+    "Broader 3D extensions still await independent review.",
+    "No demonstrated operational astrophysical usefulness or general end-to-end speed advantage.",
+    "Exact compatibility establishes existence over the specified positive completions, rather than predicting the actual background.",
+    "The general 3D interface provides sufficient exclusion only.",
+    "The unequal-moment finite-band problem remains open."
+  ],
+  "base_bytes_recoverable": "Original immutable Git commit 852b6c63915e326d9a9572f6d8130cc56fbadf9e; the original research guide is also retained in the updated bundle."
+}
