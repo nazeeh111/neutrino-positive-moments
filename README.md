@@ -55,6 +55,6 @@ A compatible unstable mode need not occur in the actual background. Atomic compl
 
 ## Reproduce without replacing the evidence
 
-Start with `verify_bundle.py`, which checks the delivered file hashes. Work in a copy before running the longer exact or numerical checks: some scripts write audit results. The [reproduction instructions](RESEARCH_GUIDE.md#reproduce) distinguish standard-library replays, optional numerical dependencies and paper builds. Historical drafts and original research records remain intact.
+Run `python3 -B verify_recipient.py` to check the bundle hashes and replay the supported saved exact certificates. The JSON report counts checked certificates and unresolved cases and lists the proof families outside its scope. For hashes alone, use `verify_bundle.py`. Work in a copy before running the longer exact or numerical checks: some scripts write audit results. The [reproduction instructions](RESEARCH_GUIDE.md#reproduce) distinguish standard-library replays, optional numerical dependencies and paper builds. Historical drafts and original research records remain intact.
 
 The research PDF is a **working draft**, not a submitted or peer-reviewed paper. The earlier [presentation record](PRESENTATION_PROVENANCE.json) records the prior front-door revision. The separate [worked-case provenance](docs/presentation/provenance.json) binds this witness presentation; original research files and the retained guide remain unchanged. Code and data use the [MIT license](LICENSE).
